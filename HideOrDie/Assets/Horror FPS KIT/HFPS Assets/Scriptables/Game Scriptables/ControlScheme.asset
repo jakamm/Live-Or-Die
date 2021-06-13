@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1a0eb5a287e464b82b7252f74241b0, type: 3}
+  m_Name: ControlScheme
+  m_EditorClassIdentifier: 
+  schemeType: 0
+  keyboardScheme:
+  - ActionName: Movement
+    Output: 1
+    ButtonBinding:
+      KeyMouseKey: 0
+    VectorBinding:
+      UpKey: 37
+      DownKey: 33
+      LeftKey: 15
+      RightKey: 18
+  - ActionName: Crouch
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 55
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Prone
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 17
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Run
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 51
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Jump
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 1
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Zoom
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 114
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Fire
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 112
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Reload
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 32
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Use
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 19
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Examine
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 31
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: LeanLeft
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 39
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: LeanRight
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 38
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: UseItem1
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 41
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: UseItem2
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 42
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: UseItem3
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 43
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: UseItem4
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 44
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Pause
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 60
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  - ActionName: Inventory
+    Output: 0
+    ButtonBinding:
+      KeyMouseKey: 3
+    VectorBinding:
+      UpKey: 0
+      DownKey: 0
+      LeftKey: 0
+      RightKey: 0
+  gamepadScheme:
+  - schemeName: Scheme1
+    gamepadControls:
+      array:
+      - ActionName: Movement
+        Output: 1
+        GamepadButton: 7
+        ScaleFactor: 0
+      - ActionName: Look
+        Output: 1
+        GamepadButton: 15
+        ScaleFactor: 0.3
+      - ActionName: Crouch
+        Output: 0
+        GamepadButton: 12
+        ScaleFactor: 0
+      - ActionName: Prone
+        Output: 0
+        GamepadButton: 12
+        ScaleFactor: 0
+      - ActionName: Run
+        Output: 0
+        GamepadButton: 7
+        ScaleFactor: 0
+      - ActionName: Jump
+        Output: 0
+        GamepadButton: 13
+        ScaleFactor: 0
+      - ActionName: Zoom
+        Output: 0
+        GamepadButton: 0
+        ScaleFactor: 0
+      - ActionName: Fire
+        Output: 0
+        GamepadButton: 8
+        ScaleFactor: 0
+      - ActionName: Reload
+        Output: 0
+        GamepadButton: 11
+        ScaleFactor: 0
+      - ActionName: Use
+        Output: 0
+        GamepadButton: 14
+        ScaleFactor: 0
+      - ActionName: Examine
+        Output: 0
+        GamepadButton: 11
+        ScaleFactor: 0
+      - ActionName: LeanLeft
+        Output: 0
+        GamepadButton: 1
+        ScaleFactor: 0
+      - ActionName: LeanRight
+        Output: 0
+        GamepadButton: 9
+        ScaleFactor: 0
+      - ActionName: UseItem1
+        Output: 0
+        GamepadButton: 3
+        ScaleFactor: 0
+      - ActionName: UseItem2
+        Output: 0
+        GamepadButton: 4
+        ScaleFactor: 0
+      - ActionName: UseItem3
+        Output: 0
+        GamepadButton: 5
+        ScaleFactor: 0
+      - ActionName: UseItem4
+        Output: 0
+        GamepadButton: 6
+        ScaleFactor: 0
+      - ActionName: Pause
+        Output: 0
+        GamepadButton: 10
+        ScaleFactor: 0
+      - ActionName: Inventory
+        Output: 0
+        GamepadButton: 16
+        ScaleFactor: 0
+  - schemeName: Scheme2
+    gamepadControls:
+      array:
+      - ActionName: Movement
+        Output: 1
+        GamepadButton: 7
+        ScaleFactor: 0
+      - ActionName: Look
+        Output: 1
+        GamepadButton: 15
+        ScaleFactor: 0.3
+      - ActionName: Crouch
+        Output: 0
+        GamepadButton: 12
+        ScaleFactor: 0
+      - ActionName: Prone
+        Output: 0
+        GamepadButton: 12
+        ScaleFactor: 0
+      - ActionName: Run
+        Output: 0
+        GamepadButton: 7
+        ScaleFactor: 0
+      - ActionName: Jump
+        Output: 0
+        GamepadButton: 13
+        ScaleFactor: 0
+      - ActionName: Zoom
+        Output: 0
+        GamepadButton: 0
+        ScaleFactor: 0
+      - ActionName: Fire
+        Output: 0
+        GamepadButton: 8
+        ScaleFactor: 0
+      - ActionName: Reload
+        Output: 0
+        GamepadButton: 11
+        ScaleFactor: 0
+      - ActionName: Use
+        Output: 0
+        GamepadButton: 11
+        ScaleFactor: 0
+      - ActionName: Examine
+        Output: 0
+        GamepadButton: 14
+        ScaleFactor: 0
+      - ActionName: LeanLeft
+        Output: 0
+        GamepadButton: 1
+        ScaleFactor: 0
+      - ActionName: LeanRight
+        Output: 0
+        GamepadButton: 9
+        ScaleFactor: 0
+      - ActionName: Pause
+        Output: 0
+        GamepadButton: 10
+        ScaleFactor: 0
+      - ActionName: Inventory
+        Output: 0
+        GamepadButton: 2
+        ScaleFactor: 0
+      - ActionName: UseItem1
+        Output: 0
+        GamepadButton: 3
+        ScaleFactor: 0
+      - ActionName: UseItem2
+        Output: 0
+        GamepadButton: 4
+        ScaleFactor: 0
+      - ActionName: UseItem3
+        Output: 0
+        GamepadButton: 5
+        ScaleFactor: 0
+      - ActionName: UseItem4
+        Output: 0
+        GamepadButton: 6
+        ScaleFactor: 0
+  activeGamepadScheme: 0

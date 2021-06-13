@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18369544547d02a44ba7f75e01e6c61b, type: 3}
+  m_Name: SerializationSettings
+  m_EditorClassIdentifier: 
+  EncryptData: 0
+  SerializePath: 2
+  EncryptionKey: 4c46eb37007af8a1edee60b119ee4b73
+  runtimeSaveablePaths:
+  - PrefabPath: Prefabs/Interact/ArmsItems/IA_Axe
+    Prefab: {fileID: 5894244905215305399, guid: 907999eb6d2a6dc4499a29ac676b1257,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ArmsItems/IA_Candle
+    Prefab: {fileID: 1692309065835858, guid: f2a82c3d00f214347a674527a3742f83, type: 3}
+  - PrefabPath: Prefabs/Interact/ArmsItems/IA_Flashlight
+    Prefab: {fileID: 1552328439722386, guid: be9460d91714d3c4fb1a740259e81fca, type: 3}
+  - PrefabPath: Prefabs/Interact/ArmsItems/IA_Glock18
+    Prefab: {fileID: 1223104983946140, guid: 33b6fd48297dee3409c95b1dc0026c6c, type: 3}
+  - PrefabPath: Prefabs/Interact/ArmsItems/IA_Lantern
+    Prefab: {fileID: 1603289076461798, guid: 9dba05ac0cfb0634eb1331823de3a6cb, type: 3}
+  - PrefabPath: Prefabs/Interact/BreakableItems/BreakableCrate
+    Prefab: {fileID: 7373170175360900570, guid: 9661d30be3babde4bb25da44043f490b,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/BreakableItems/BreakableCrate1
+    Prefab: {fileID: 4796502076242641844, guid: 84b75246edcfeff4cb41ac75517610a1,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/BreakableItems/Broken/Crate1_Broken
+    Prefab: {fileID: 7606287722258107569, guid: ef76c15e857a2294b9999323e12394a0,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/BreakableItems/Broken/Crate_Broken
+    Prefab: {fileID: 678980517396514146, guid: e43dd78907aac7344b3f11c05425974d, type: 3}
+  - PrefabPath: Prefabs/Interact/CCTV/CCTV Camera
+    Prefab: {fileID: 1153198750, guid: 6d7a23e3f9f352c48ac4db02b1685849, type: 3}
+  - PrefabPath: Prefabs/Interact/CCTV/CCTV Monitor
+    Prefab: {fileID: 260073575, guid: 12917f2fbc5c0064b890f087a3479f71, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/ValvePipe
+    Prefab: {fileID: 1266361361333136, guid: dd28addfe40fdb9459ca9e982ef9b840, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/ChestOfDrawers
+    Prefab: {fileID: 1464299285469890, guid: 28d12f4cb5479f346a8376e7f4cba6a3, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/ElectricBox
+    Prefab: {fileID: 1699841385794678, guid: 5d8b1aeca4a6ca944947ea544ab26ea1, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door01/Door01
+    Prefab: {fileID: 1327133634282886, guid: 531a3572f49664a4b8b2d851e82c07a0, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door01/Door01_Jammed
+    Prefab: {fileID: 8745990603341956081, guid: fed5d00a748966141a55c015ea717006,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door02/Door02
+    Prefab: {fileID: 8748746416431364920, guid: 79b9df2fa5b0bed43904fe09321b5bb6,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door02/Door02_Jammed
+    Prefab: {fileID: 4112395713825555336, guid: 42dcc1ee20affff4d8aafc7ba11815ac,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door03/Door03
+    Prefab: {fileID: 1636295296573928, guid: 62d7c5d997906954c8ea9af573c87e76, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door03/Door03_Jammed
+    Prefab: {fileID: 3292411662133523778, guid: 6ed40d05344290b4cbbc917e27457b77,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door04/Door04
+    Prefab: {fileID: 2728805464315324186, guid: 61d02bc7e65dc6548b06c540723d6370,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door04/Door04_Jammed
+    Prefab: {fileID: 5116854198312440243, guid: 48d1f90b671b430448e72c0be4a8cb03,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door05/Door05
+    Prefab: {fileID: 3214695639588254203, guid: da0fdfd45d8e71c468b53145d736869a,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Animation/Doors/Door05/Door05_Jammed
+    Prefab: {fileID: 4256203034566780412, guid: 2fb22465c50fc344583603698c069894,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Bookshelf
+    Prefab: {fileID: 3978226594511948643, guid: 7cd36ee60964d53489f26f47323248cc,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/ChestOfDrawers
+    Prefab: {fileID: 1105345674543466, guid: 2812b42b67d69814f8e5f87d7485fdca, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/ElectricBox
+    Prefab: {fileID: 1479706503428626, guid: b95d110895fa71c429853d647a106833, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door01/Door01
+    Prefab: {fileID: 4737362753394054681, guid: 5592b05a7d848ff43b48fcd539e6b7eb,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door01/Door01_Jammed
+    Prefab: {fileID: 6533104719392294823, guid: d080501f759b02f4e8bbd6a9aab8c5d6,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door02/Door02
+    Prefab: {fileID: 1363589929787603395, guid: a1362e8f050fa484f9ed64695748ae6c,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door02/Door02_Jammed
+    Prefab: {fileID: 4609647049467551957, guid: ef0e05a6854bb274eb3ed1c859c3f276,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door03/Door03
+    Prefab: {fileID: 7751898260494383464, guid: 506f45a6820aea74fb6c0fad316d04fb,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door03/Door03_Jammed
+    Prefab: {fileID: 2639024916769955054, guid: 45f1b1f3f7319aa4899620be24da3d57,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door04/Door04
+    Prefab: {fileID: 228558570698279233, guid: cd10ac16a4542784e8e8347607623b11, type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door04/Door04_Jammed
+    Prefab: {fileID: 8365588267391561316, guid: 1da1e7c766bdb8f4198bbfe546b7e8e9,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door05/Door05
+    Prefab: {fileID: 7639130328537923721, guid: ed28b6fa5397f3f4d9713ca02f8b9406,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/DynamicObjects/Mouse/Doors/Door05/Door05_Jammed
+    Prefab: {fileID: 4785837761108413261, guid: 1f2aae0a1b5081741acd232d280bf64d,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Books/Book_01
+    Prefab: {fileID: 91485040201122590, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Books/Book_02
+    Prefab: {fileID: 2640481945537384146, guid: f9ec2f5b43ac0204199acdb66395048b,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Books/Book_03
+    Prefab: {fileID: 5536874025217826583, guid: 888ce82c0af2ab0499d39c93fb0f4ce4,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Books/Book_04
+    Prefab: {fileID: 7269974910502304462, guid: edb3a3489424e9e40bfa7d39e1370825,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Papers/PaperBent_A
+    Prefab: {fileID: 2317854184367674033, guid: 0b5467ac83de9e34dbb8ed4c972efcd2,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Papers/Paper_01
+    Prefab: {fileID: 1024846367479426655, guid: 1139d8eedc98ecf4391e359b50ccdca3,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Papers/Paper_PostCard
+    Prefab: {fileID: 6857133398338409634, guid: f12d8c0dc837e6a479b76128baaea8e4,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Budha
+    Prefab: {fileID: 8889472231047903228, guid: c6f3c8b92607b6e4cb93dc3545b16573,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Cup
+    Prefab: {fileID: 7849738501486291885, guid: b3eec163114bbf542a11b0090e4ccb6a,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Flashlight
+    Prefab: {fileID: 6579245910325346542, guid: f236b5638fa8bd042b8c3828a7f43a28,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Glock18
+    Prefab: {fileID: 7706610628766684863, guid: 17ab2993d691bf6439b628ee9d067913,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Log_pine
+    Prefab: {fileID: 1375048963949212, guid: 91d112388b4c01f419b7323d2a7b92ab, type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Medicine
+    Prefab: {fileID: 3052455638869350969, guid: a4384ef645ef0034aad2d8657b408350,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Plate
+    Prefab: {fileID: 1952772304504501756, guid: 24678b6cda250504391d7e7a1e9ea05d,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/ExaminableItems/Props/Syringe
+    Prefab: {fileID: 6985627298542696574, guid: a397db20feb6e8c458161193bb5c1e0a,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Backpacks/Backpack_A_01
+    Prefab: {fileID: 1651721341309168, guid: 97f1e32fa6c93cf45a479ddfcd4884a7, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Backpacks/BackPack_B_01
+    Prefab: {fileID: 1683020611398382, guid: 95e7e523fe1d58f4492f4ffca89f50c2, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Item Containers/BackpackA_Container
+    Prefab: {fileID: 3738620218130864842, guid: 43a5494a50e957543b7e840e4611bef7,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Item Containers/Dufflebag_FixedContainer
+    Prefab: {fileID: 1282171033, guid: 6f815cd2b8bfaba4ea086cf356a75aff, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Ammo Items/IR_9MMAmmo
+    Prefab: {fileID: 5528063980788014642, guid: a3584a850873c4f49b2b8300b4436642,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Ammo Items/IR_9MMMagazine
+    Prefab: {fileID: 1827128504687324, guid: fb3fe8b7e985884458826c9cfa4240b2, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Ammo Items/IR_Battery
+    Prefab: {fileID: 1359039285057922, guid: ff44126af6bf4724cb90280d14376908, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Ammo Items/IR_Battery01
+    Prefab: {fileID: 1430661221626180, guid: 3962e1e84dede9a459aec51aa60b77e6, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Drop Sacks/ICP_Sack_Big
+    Prefab: {fileID: 1668290240821854, guid: b0361dfa72b7f844ebc723879118657e, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Drop Sacks/ICP_Sack_Large
+    Prefab: {fileID: 1991033329804282, guid: 7cc4433b585b00b4cba99e7564cf017a, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Drop Sacks/ICP_Sack_Medium
+    Prefab: {fileID: 4542589923716121773, guid: 7c685cec3e65a7a41896bf4ec2872708,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Drop Sacks/ICP_Sack_Small
+    Prefab: {fileID: 1977295849456510829, guid: 2898479ab19b91e4bb7c0d5325e857c3,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Apple
+    Prefab: {fileID: 8802696498958587224, guid: 88693a571146c8a4195f98a018ac3fad,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Banana
+    Prefab: {fileID: 1405219638246174339, guid: 0911bc34055ce3a4ca7b15329d3350f2,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_BloodBag
+    Prefab: {fileID: 1205774663, guid: 534ef8dee0da6c6479121520d34fbb7d, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Cola
+    Prefab: {fileID: 2628981987279529428, guid: a905b179853c78f4babc0b2afd0f0ee6,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_EnergyDrink
+    Prefab: {fileID: 1115486705138341407, guid: 69dcafcd8f0dfb24ebf366aa190e6cd8,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_FirstAidKit
+    Prefab: {fileID: 1600125121, guid: 4fcc8dea751388a4cb20ad6e753632c7, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Fish Can
+    Prefab: {fileID: 2815891573619926925, guid: 9af7804dde023a54db7a1a68c64456aa,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Fish Conserve
+    Prefab: {fileID: 6226336788016599804, guid: fc5913149676ed24c833bdd868abf81f,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Gauze
+    Prefab: {fileID: 1504182863, guid: 5ef9ca28976b0434592bd04cced46f57, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Herb
+    Prefab: {fileID: 5734375753707207479, guid: 470d4e7298ec328489e3053e48ca195a,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Medicine
+    Prefab: {fileID: 7618360415291896815, guid: ce3341f833eb0aa48b3b08919d538791,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_MedKit
+    Prefab: {fileID: 3883263260219317132, guid: 91b0676a0ecbc994fb45001cb389e799,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Pashtete Conserve
+    Prefab: {fileID: 7711606456648169220, guid: 1e76fe5632125904f916715d6ceafd34,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Pear
+    Prefab: {fileID: 7987036121776205876, guid: e24f2821110deb042ba74c947c566c89,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Pills_01
+    Prefab: {fileID: 3458657775707933746, guid: 6ca5d0c60a0f6c04e9e03f4923cfdca4,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Pills_02
+    Prefab: {fileID: 9167509522851509966, guid: c4f455bc33c7f7b4388e4fb0da7648af,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Health Items/IH_Water_Bottle
+    Prefab: {fileID: 6283688053063081428, guid: 0c2fdc878c74cdd408053eef88944384,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/IC_OilBottle
+    Prefab: {fileID: 8517838539651564136, guid: 3f790a1927fda0b4f9b8af9565545320,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/IC_PetrolOilBottle
+    Prefab: {fileID: 1165946862094760, guid: 7b4bcc8374da84d439bb4265a7dc351f, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/IC_Syringe
+    Prefab: {fileID: 2031259906048697751, guid: 986b423873bae5c4cbd7c39b03a39936,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/IC_Zippo
+    Prefab: {fileID: 34769618883522008, guid: 4f8d39c1e3d346e4d9ea7a9421d99814, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/I_Key01
+    Prefab: {fileID: 1597550490744132, guid: 75a05d4d6184c2944884a52334bfc3bb, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/I_Key02
+    Prefab: {fileID: 1733325901836582, guid: 5f49bd3e5d6e091478b455a3f556a4c4, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/I_Key03
+    Prefab: {fileID: 1045000472514846, guid: ed84609cc39177847ae6a19d28e47331, type: 3}
+  - PrefabPath: Prefabs/Interact/InventoryItems/Items/Items/I_Key04
+    Prefab: {fileID: 1597019828895162, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+  - PrefabPath: Prefabs/Interact/Locks/KeycardLock
+    Prefab: {fileID: 8868459347779100904, guid: 0ac536e89b36fb84bb0c899aa7b0e3cb,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/Locks/KeypadLock
+    Prefab: {fileID: 144345089, guid: 9df5e399f0660af42bc6258ad9f71716, type: 3}
+  - PrefabPath: Prefabs/Interact/Locks/NumberPadlock
+    Prefab: {fileID: 2679444523773808201, guid: 0d40c614f8d62824790e3df57fe6cab7,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/Locks/SecurityCard
+    Prefab: {fileID: 4265865781666324785, guid: 10bd6d59993fdb74cbe32ce6bea15c77,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/Other/AntiqueRadio
+    Prefab: {fileID: 430702748789203716, guid: dc07a15f677ca64448c1e372f15a3876, type: 3}
+  - PrefabPath: Prefabs/Interact/Other/OldChest
+    Prefab: {fileID: 1976381392716751309, guid: 8f27ac12c4beb314293a7f5280ba423b,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/VHS/VHS Monitor
+    Prefab: {fileID: 4133353645752381157, guid: ac8983e110fcf794ea36e70bca6e0443,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/VHS/VHS Player
+    Prefab: {fileID: 4696194915903422431, guid: 9c075f1c4000221409f98d4032b925a8,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/VHS/Tapes/VHSTape01
+    Prefab: {fileID: 3257918365220079821, guid: aacbcc44721f25746b1cb75f9dba778c,
+      type: 3}
+  - PrefabPath: Prefabs/Interact/VHS/Tapes/VHSTape02
+    Prefab: {fileID: 359835534486753574, guid: 98605266358a3b44d8d8df3d04a7b37a, type: 3}
+  - PrefabPath: Prefabs/Interact/VHS/Tapes/VHSTape_Blank
+    Prefab: {fileID: 2008708847099431128, guid: 2383c135bfafea94d982856a250f0c76,
+      type: 3}
+  - PrefabPath: Prefabs/NPCs/Derrick
+    Prefab: {fileID: 6684353027832990382, guid: 020eb78efb1f78d43a366e9e74f17e63,
+      type: 3}
+  - PrefabPath: Prefabs/NPCs/Mutant
+    Prefab: {fileID: 6806732197256804779, guid: 24a9a85d2dbf9e44e9aa7c916f3599f8,
+      type: 3}
+  - PrefabPath: Prefabs/NPCs/ZombieFarmer
+    Prefab: {fileID: 5878799063112757676, guid: bae4374db15547f48b99f7fcc65cc4c3,
+      type: 3}
