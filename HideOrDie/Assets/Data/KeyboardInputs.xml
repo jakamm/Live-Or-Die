@@ -1,0 +1,61 @@
+<UserInputs scheme="Keyboard">
+  <Action name="Movement" type="1">
+    <Binding>
+      <Up key="kb.W" />
+      <Down key="kb.S" />
+      <Left key="kb.A" />
+      <Right key="kb.D" />
+    </Binding>
+  </Action>
+  <Action name="Crouch" type="0">
+    <Binding key="kb.LeftCtrl" />
+  </Action>
+  <Action name="Prone" type="0">
+    <Binding key="kb.C" />
+  </Action>
+  <Action name="Run" type="0">
+    <Binding key="kb.LeftShift" />
+  </Action>
+  <Action name="Jump" type="0">
+    <Binding key="kb.Space" />
+  </Action>
+  <Action name="Zoom" type="0">
+    <Binding key="mb.MouseRight" />
+  </Action>
+  <Action name="Fire" type="0">
+    <Binding key="mb.MouseLeft" />
+  </Action>
+  <Action name="Reload" type="0">
+    <Binding key="kb.R" />
+  </Action>
+  <Action name="Use" type="0">
+    <Binding key="kb.E" />
+  </Action>
+  <Action name="Examine" type="0">
+    <Binding key="kb.Q" />
+  </Action>
+  <Action name="LeanLeft" type="0">
+    <Binding key="kb.Y" />
+  </Action>
+  <Action name="LeanRight" type="0">
+    <Binding key="kb.X" />
+  </Action>
+  <Action name="UseItem1" type="0">
+    <Binding key="kb.Digit1" />
+  </Action>
+  <Action name="UseItem2" type="0">
+    <Binding key="kb.Digit2" />
+  </Action>
+  <Action name="UseItem3" type="0">
+    <Binding key="kb.Digit3" />
+  </Action>
+  <Action name="UseItem4" type="0">
+    <Binding key="kb.Digit4" />
+  </Action>
+  <Action name="Pause" type="0">
+    <Binding key="kb.Escape" />
+  </Action>
+  <Action name="Inventory" type="0">
+    <Binding key="kb.Tab" />
+  </Action>
+</UserInputs>

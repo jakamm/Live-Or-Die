@@ -1,0 +1,116 @@
+{
+  "scene": "EmptyScenePlayer",
+  "dateTime": "2021-05-19 01:38:36",
+  "playerData": {
+    "playerPosition": {
+      "x": 133.25177,
+      "y": 70.7159958,
+      "z": -86.65337
+    },
+    "cameraRotation": {
+      "x": 135.6416,
+      "y": -31.2000961
+    },
+    "characterState": 0,
+    "playerHealth": 100.0
+  },
+  "itemSwitcherData": {
+    "switcherActiveItem": -1,
+    "switcherWeaponItem": -1,
+    "switcher_item_flashlight": {
+      "FlashlightItem": {
+        "batteryPercentage": 100.0
+      }
+    },
+    "switcher_item_lantern": {
+      "LanternItem": {
+        "lightPercentage": 100.0,
+        "lightIntensity": 1.0,
+        "flameAlpha": 0.0
+      }
+    },
+    "switcher_item_candle": {
+      "CandleItem": {
+        "candleScale": 0.00113
+      }
+    },
+    "switcher_item_glock18": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    }
+  },
+  "inventoryData": {
+    "inv_slots_count": 10,
+    "slotsData": {
+      "inv_slot_0": "null",
+      "inv_slot_1": "null",
+      "inv_slot_2": "null",
+      "inv_slot_3": "null",
+      "inv_slot_4": "null",
+      "inv_slot_5": "null",
+      "inv_slot_6": "null",
+      "inv_slot_7": "null",
+      "inv_slot_8": "null",
+      "inv_slot_9": "null"
+    }
+  },
+  "objectivesData": {
+    "activeObjectives": {},
+    "touchedObjectives": {}
+  },
+  "saveablesData": {
+    "DraggableObject_325e0904fb58453cb0ba8faccb2da61a": {
+      "position": {
+        "x": 131.13031,
+        "y": 70.6569748,
+        "z": -89.2873
+      },
+      "rotation": {
+        "x": 49.3704338,
+        "y": 111.263687,
+        "z": 91.3211746
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "DraggableObject_64d495f2660f467ca96059e8bfd4b407": {
+      "position": {
+        "x": 132.248657,
+        "y": 70.62309,
+        "z": -88.22336
+      },
+      "rotation": {
+        "x": 332.1449,
+        "y": 150.257339,
+        "z": 4.267094
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "DraggableObject_f94887e4a7a642c1aa22e683a97e9314": {
+      "position": {
+        "x": 130.749863,
+        "y": 70.67495,
+        "z": -87.29974
+      },
+      "rotation": {
+        "x": 322.74292,
+        "y": 299.706451,
+        "z": 91.7125854
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "AnimationPlayEvent_1baab0cd8b044db4b1d45384b0269139": {
+      "isPlayed": false
+    }
+  }
+}
