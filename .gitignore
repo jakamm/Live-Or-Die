@@ -13114,3 +13114,5 @@ HideOrDie/Library/ArtifactDB-lock
 HideOrDie/Library/ArtifactDB
 HideOrDie/Library/APIUpdater/project-dependencies.graph
 HideOrDie/Library/AnnotationManager
+HideOrDie/Temp/UnityLockfile
+HideOrDie/Packages/packages-lock.json
