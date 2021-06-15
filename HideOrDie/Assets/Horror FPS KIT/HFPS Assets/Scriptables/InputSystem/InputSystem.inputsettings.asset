@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: InputSystem.inputsettings
   m_EditorClassIdentifier: 
   m_SupportedDevices:
-  - DualShockGamepad
-  - XInputController
   - Keyboard
   - Mouse
   m_UpdateMode: 1

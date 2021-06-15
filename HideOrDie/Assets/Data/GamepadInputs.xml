@@ -1,0 +1,59 @@
+<UserInputs scheme="Gamepad" index="0">
+  <Action name="Movement" type="1">
+    <Binding control="gp.LeftStick" />
+  </Action>
+  <Action name="Look" type="1">
+    <Binding control="gp.RightStick" />
+  </Action>
+  <Action name="Crouch" type="0">
+    <Binding control="gp.FaceRight" />
+  </Action>
+  <Action name="Prone" type="0">
+    <Binding control="gp.FaceRight" />
+  </Action>
+  <Action name="Run" type="0">
+    <Binding control="gp.LeftStick" />
+  </Action>
+  <Action name="Jump" type="0">
+    <Binding control="gp.FaceDown" />
+  </Action>
+  <Action name="Zoom" type="0">
+    <Binding control="gp.LeftTrigger" />
+  </Action>
+  <Action name="Fire" type="0">
+    <Binding control="gp.RightTrigger" />
+  </Action>
+  <Action name="Reload" type="0">
+    <Binding control="gp.FaceUp" />
+  </Action>
+  <Action name="Use" type="0">
+    <Binding control="gp.FaceLeft" />
+  </Action>
+  <Action name="Examine" type="0">
+    <Binding control="gp.FaceUp" />
+  </Action>
+  <Action name="LeanLeft" type="0">
+    <Binding control="gp.LeftShoulder" />
+  </Action>
+  <Action name="LeanRight" type="0">
+    <Binding control="gp.RightShoulder" />
+  </Action>
+  <Action name="UseItem1" type="0">
+    <Binding control="gp.DpadUp" />
+  </Action>
+  <Action name="UseItem2" type="0">
+    <Binding control="gp.DpadRight" />
+  </Action>
+  <Action name="UseItem3" type="0">
+    <Binding control="gp.DpadDown" />
+  </Action>
+  <Action name="UseItem4" type="0">
+    <Binding control="gp.DpadLeft" />
+  </Action>
+  <Action name="Pause" type="0">
+    <Binding control="gp.Start" />
+  </Action>
+  <Action name="Inventory" type="0">
+    <Binding control="gp.PS4TouchpadButton" />
+  </Action>
+</UserInputs>
