@@ -17493,7 +17493,7 @@ MonoBehaviour:
   SelectFirstSave: 1
   isMainMenu: 1
   setStartNewGame: 1
-  NewGameBuildName: HideOrDie
+  NewGameBuildName: Opening (Tutorial)
   ContinueButton: {fileID: 183870691}
   NewGameButton: {fileID: 1228977602}
 --- !u!114 &6272252811291515389

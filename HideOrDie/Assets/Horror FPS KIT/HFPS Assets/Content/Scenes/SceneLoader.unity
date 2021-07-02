@@ -378,7 +378,7 @@ PrefabInstance:
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
       propertyPath: sceneInfos.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -417,6 +417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
+      propertyPath: sceneInfos.Array.data[12].SceneName
+      value: Opening (Tutorial)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
       propertyPath: sceneInfos.Array.data[5].Background
       value: 
       objectReference: {fileID: 21300000, guid: 0609f7b26ac69614999d8376b7fb1c36,
@@ -437,7 +442,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneInfos.Array.data[8].Background
       value: 
-      objectReference: {fileID: 21300000, guid: 8792d1a3aa95a2746a2e6a320b014cc5,
+      objectReference: {fileID: 21300000, guid: b5bf9c26a9340194ab5d87f2f0ccbcc5,
         type: 3}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -456,6 +461,12 @@ PrefabInstance:
       propertyPath: sceneInfos.Array.data[11].Background
       value: 
       objectReference: {fileID: 21300000, guid: b390da2c12a2e9343b9d761173c7d6e6,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[12].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
         type: 3}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -491,6 +502,12 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneInfos.Array.data[11].SceneDescription
       value: YOU SURVIVED!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[12].SceneDescription
+      value: You awaken in a poorly lit room that has a boarded up door and a sealed
+        up vent. Did whoever board up the door leave through the vent?
       objectReference: {fileID: 0}
     - target: {fileID: 224489639641545036, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
