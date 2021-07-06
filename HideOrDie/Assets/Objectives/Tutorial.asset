@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9de9e24370cd9041b348027f19b6140, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  Objectives:
+  - shortName: 00
+    eventID: 
+    objectiveText: 'Where am I? '
+    completeCount: 0
+    objectiveID: 0
+  - shortName: 01
+    eventID: 
+    objectiveText: Interact with the boards to remove them.
+    completeCount: 0
+    objectiveID: 1
+  - shortName: 02
+    eventID: 
+    objectiveText: Read the note and interact with the TV.
+    completeCount: 0
+    objectiveID: 2
+  - shortName: 03
+    eventID: 
+    objectiveText: It looks like there is another TV on that table.
+    completeCount: 0
+    objectiveID: 3
+  - shortName: 04
+    eventID: 
+    objectiveText: I have to find the key.
+    completeCount: 0
+    objectiveID: 4
+  - shortName: 05
+    eventID: 
+    objectiveText: What is back here?
+    completeCount: 0
+    objectiveID: 5
+  - shortName: 06
+    eventID: 
+    objectiveText: '''Ctrl'' or ''C'' to crouch.'
+    completeCount: 0
+    objectiveID: 6
+  - shortName: 07
+    eventID: 
+    objectiveText: '''Shift'' to run.'
+    completeCount: 0
+    objectiveID: 7
+  - shortName: 08
+    eventID: 
+    objectiveText: The 'Game Master' said to leave no stone unturned...
+    completeCount: 0
+    objectiveID: 8
