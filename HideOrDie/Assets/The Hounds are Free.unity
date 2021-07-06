@@ -14372,7 +14372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43274816ed05d14d9eafed41784adde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effects: {fileID: 0}
   AnimationObject: {fileID: 374055665}
   JumpscareSound: {fileID: 8300000, guid: 2357eb8901a9dcd428496ac8b7f5994a, type: 3}
   ScaredBreath: {fileID: 0}
@@ -45194,8 +45193,6 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
-  trigger: {fileID: 0}
-  triggers: []
 --- !u!64 &1062127179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47502,6 +47499,323 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118812537}
   m_CullTransparentMesh: 0
+--- !u!1 &1126416882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8803813540990770364, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3257918364420839797}
+  - component: {fileID: 1126416891}
+  - component: {fileID: 1126416890}
+  - component: {fileID: 1126416889}
+  - component: {fileID: 1126416888}
+  - component: {fileID: 1126416887}
+  - component: {fileID: 1126416886}
+  - component: {fileID: 1126416885}
+  - component: {fileID: 1126416884}
+  - component: {fileID: 1126416883}
+  m_Layer: 9
+  m_Name: VHSTape01Trigger
+  m_TagString: Trigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1126416883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6276644284298265796, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71236a69471c1e478bfdef22bbe2e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractType: 2
+  RepeatMode: 0
+  InteractObject: {fileID: 0}
+  InteractCall: UseObject
+  AnimationName: 
+  AnimationSpeed: 1
+  InteractEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1126416884}
+        m_TargetAssemblyTypeName: ObjectSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  InteractBackEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  putDownExamine: 0
+  InteractSound: {fileID: 0}
+  InteractVolume: 1
+  waitToCompelete: 0
+--- !u!114 &1126416884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6276644284298265799, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56c7a32ba0387a428e2e40116b66ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnType: 2
+  SpawnObjects:
+  - {fileID: 3581641185936238144, guid: 074f483bc100086418849ea4c7d6ee5e, type: 3}
+  SpawnPosition: {fileID: 949491897}
+  spawnOnce: 0
+  isSpawned: 0
+--- !u!114 &1126416885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6276644284298265798, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43274816ed05d14d9eafed41784adde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationObject: {fileID: 374055665}
+  JumpscareSound: {fileID: 8300000, guid: 95ffac39b7ddacb4a8953133a36697db, type: 3}
+  ScaredBreath: {fileID: 0}
+  scareVolume: 0.5
+  scaredBreathTime: 33
+  enableEffects: 1
+  chromaticAberrationAmount: 0.8
+  vignetteAmount: 0.3
+  effectsTime: 5
+  shakeByPreset: 0
+  magnitude: 3
+  roughness: 3
+  startTime: 0.1
+  durationTime: 3
+  PositionInfluence: {x: 0.15, y: 0.15, z: 0}
+  RotationInfluence: {x: 1, y: 1, z: 1}
+  isPlayed: 0
+--- !u!114 &1126416886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6276644284298265793, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dynamicType: 0
+  useType: 0
+  interactType: 1
+  keyType: 0
+  m_Animation: {fileID: 527042025}
+  IgnoreColliders:
+  - {fileID: 1618588442}
+  InteractEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DisabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  customText: 
+  keyID: 0
+  useAnim: Door_Open
+  backUseAnim: 
+  mouseInput: 0
+  mouseSmoothing: 0
+  useJammedPlanks: 0
+  Planks: []
+  knobAnim: 
+  useSR: 0
+  startingRotation: {x: 0, y: 0, z: 0}
+  isOpened: 0
+  toPlayerAngle: 0
+  moveWithX: 0
+  reverseMove: 0
+  drawerDragSounds: 0
+  InteractPos: 0
+  drawerDragPlay: 0.2
+  minMaxMove: {x: 0, y: 0}
+  stopAngle: 0
+  lockOnUp: 0
+  isUp: 0
+  valveTurnSounds: []
+  valveSoundAfter: 0
+  valveTurnSpeed: 0
+  valveTurnTime: 0
+  turnAxis: 0
+  m_Volume: 1
+  Open: {fileID: 0}
+  Close: {fileID: 0}
+  LockedTry: {fileID: 0}
+  UnlockSound: {fileID: 0}
+  LeverUpSound: {fileID: 0}
+  DebugAngle: 0
+  rotateValue: 0
+  isHolding: 0
+  Hold: 0
+  hasKey: 0
+  isLocked: 0
+  isInvoked: 0
+  Angle: 0
+--- !u!114 &1126416887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8803813540990770366, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73fcb51f6d678d2498af4fb5f59a2c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemType: 2
+  examineType: 1
+  examineRotate: 3
+  messageType: 3
+  disableType: 0
+  MessageTips: []
+  weaponID: 0
+  inventoryID: 35
+  backpackExpandAmount: 0
+  examineName: VHS Tape
+  itemMessage: VHS Tape
+  paperMessage: 
+  pickupAmount: 1
+  messageShowTime: 3
+  examineDistance: 0.35
+  paperMessageSize: 0
+  pickupSwitch: 0
+  examineCollect: 0
+  enableCursor: 0
+  showItemName: 0
+  autoShortcut: 0
+  floatingIconEnabled: 1
+  faceToCamera: 0
+  faceRotation: {x: 0, y: 0, z: 0}
+  itemHashtables:
+  - Key: Tag
+    Value: vhs_monster
+  - Key: Value
+    Value: Monster at woods!
+  - Key: Path
+    Value: Textures/VHS/VHS_Monster
+  CollidersDisable: []
+  CollidersEnable: []
+  pickupSound: {fileID: 8300000, guid: 083a48ad55134a8419e7016aafcfd886, type: 3}
+  pickupVolume: 0.75
+  examineSound: {fileID: 0}
+  examineVolume: 1
+  isExamined: 0
+  lastFloorPosition: {x: 0, y: 0, z: 0}
+--- !u!54 &1126416888
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8803813540990770361, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1126416889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8803813540990770360, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.55482596, y: 0.9796204, z: 0.1135891}
+  m_Center: {x: -0.027583275, y: 0.0000000016443014, z: 0}
+--- !u!23 &1126416890
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8803813540990770363, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: df1f119932287464b889388ba04592c5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1126416891
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8803813540990770362, guid: 9aa5dcf4a99703943a85be39928feee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6276644283860764106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Mesh: {fileID: -5581168963983223874, guid: 53588d7cd76013b448606c6f5bfd1740, type: 3}
 --- !u!1001 &1127124289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52874,7 +53188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43274816ed05d14d9eafed41784adde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effects: {fileID: 0}
   AnimationObject: {fileID: 279087162}
   JumpscareSound: {fileID: 0}
   ScaredBreath: {fileID: 0}
@@ -66173,7 +66486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43274816ed05d14d9eafed41784adde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effects: {fileID: 0}
   AnimationObject: {fileID: 279087162}
   JumpscareSound: {fileID: 0}
   ScaredBreath: {fileID: 0}
@@ -89682,12 +89994,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2141860564}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3257918364420839797 stripped
+--- !u!4 &3257918364420839797
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 8803813540990770367, guid: 9aa5dcf4a99703943a85be39928feee0,
     type: 3}
   m_PrefabInstance: {fileID: 6276644283860764106}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_LocalRotation: {x: -0.268047, y: -0.6441707, z: -0.66358024, w: 0.26991895}
+  m_LocalPosition: {x: -0.2249322, y: -3.8011103, z: -4.181595}
+  m_LocalScale: {x: 0.30000004, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 938171656}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -88.42, y: 16.852, z: -152.13}
 --- !u!1001 &6276644283860764106
 PrefabInstance:
   m_ObjectHideFlags: 0
