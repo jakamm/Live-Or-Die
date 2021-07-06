@@ -11,11 +11,15 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/The Hounds are Loose.unity
+- path: Assets/The Hounds are Free.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/The Defensive.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/The Defensive.unity
-  isLoaded: 1
-  isActive: 1
+- path: Assets/Scenes/0_Prototype/HideOrDie1.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
