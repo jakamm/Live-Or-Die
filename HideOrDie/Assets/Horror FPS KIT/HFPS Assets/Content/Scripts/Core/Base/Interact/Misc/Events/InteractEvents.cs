@@ -4,6 +4,8 @@ using ThunderWire.Utility;
 
 public class InteractEvents : MonoBehaviour {
 
+  
+
     private ExamineManager examine;
 
     public enum Type { InteractCall, Animation, Event }
@@ -36,6 +38,8 @@ public class InteractEvents : MonoBehaviour {
 
     private bool isInteracted;
 
+ 
+
     void Awake()
     {
         if (putDownExamine)
@@ -59,6 +63,8 @@ public class InteractEvents : MonoBehaviour {
 
     public void UseObject()
     {
+
+
         if(InteractType == Type.InteractCall && InteractObject)
         {
             InteractObject.SendMessage(InteractCall, SendMessageOptions.DontRequireReceiver);

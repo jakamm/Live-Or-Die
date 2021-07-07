@@ -11,7 +11,8 @@ using ThunderWire.Utility;
 /// <summary>
 /// Script for defining Interactive Items
 /// </summary>
-public class InteractiveItem : MonoBehaviour, ISaveable {
+public class InteractiveItem : MonoBehaviour, ISaveable
+{
 
     #region Structures
     [System.Serializable]
@@ -46,7 +47,7 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
     //Texts
     public string examineName;
     public string itemMessage;
-    [Multiline] 
+    [Multiline]
     public string paperMessage;
 
     //Others
@@ -84,6 +85,11 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
 
     private string objectParentPath;
 
+    public GameObject trigger;
+    public GameObject[] triggers;
+
+    //JumpscareTrigger JT;
+
     void Awake()
     {
         CreateCustomData(itemHashtables);
@@ -92,7 +98,24 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
     void Start()
     {
         audioSource = ScriptManager.Instance.SoundEffects;
+
+       // JT = GameObject.FindGameObjectWithTag("Trigger").GetComponent<JumpscareTrigger>();
+
+
     }
+
+   /* public void TriggerPickup()
+    {
+
+        JT = GameObject.FindGameObjectWithTag("Trigger").GetComponent<JumpscareTrigger>();
+        foreach (GameObject trigger in triggers)
+        {
+            JT.PlayJumpScare(gameObject);
+            Debug.Log("jump");
+            //JT = GameObject.FindGameObjectWithTag("JTTape").GetComponent<JumpscareTrigger>();
+        }
+    }
+   */
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -128,7 +151,7 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
     {
         if (ItemType == Type.InventoryItem || ItemType == Type.ArmsItem)
         {
-            if(objectParentPath != gameObject.GameObjectPath())
+            if (objectParentPath != gameObject.GameObjectPath())
             {
                 objectParentPath = gameObject.GameObjectPath();
                 customData.dataDictionary["object_path"] = objectParentPath;
@@ -138,14 +161,22 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
 
     public void UseObject()
     {
+        
+       // TriggerPickup();
+
         if (ItemType == Type.OnlyExamine) return;
 
         if (pickupSound)
         {
+           // JT.PlayJumpScare(gameObject);
+           // Debug.Log("Scared you");
+
             audioSource.clip = pickupSound;
             audioSource.volume = pickupVolume;
             audioSource.Play();
         }
+
+        
 
         if (GetComponent<ItemEvent>())
         {
@@ -163,7 +194,7 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         {
             DisableObject(false);
         }
-        else if(disableType == DisableType.DisableObject)
+        else if (disableType == DisableType.DisableObject)
         {
             gameObject.SetActive(false);
         }
@@ -171,6 +202,8 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         {
             FloatingIconManager.Instance.DestroySafely(gameObject);
         }
+
+       
     }
 
     public void DisableObject(bool state)
@@ -267,7 +300,7 @@ public class InteractiveItem : MonoBehaviour, ISaveable {
         {
             DisableObject(token["stateDisable"].ToObject<bool>());
         }
-        else if(disableType == DisableType.DisableObject)
+        else if (disableType == DisableType.DisableObject)
         {
             gameObject.SetActive(token["stateDisable"].ToObject<bool>());
         }
