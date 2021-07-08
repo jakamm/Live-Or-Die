@@ -396,9 +396,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf2cf27070609147b5d7cf994f1498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipLength: 666
+  clipLength: 580
   cutsceneTimer: 0
-  NextScene: MainMenu
+  NextScene: Opening (Tutorial)
 --- !u!4 &1373893485
 Transform:
   m_ObjectHideFlags: 0
@@ -534,12 +534,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723839684}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a470d4b7a63f14745a5cce65454b8da6, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.561
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -643,9 +643,9 @@ VideoPlayer:
   m_AspectRatio: 3
   m_DataSource: 0
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 1
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 1723839685}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
@@ -654,7 +654,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
