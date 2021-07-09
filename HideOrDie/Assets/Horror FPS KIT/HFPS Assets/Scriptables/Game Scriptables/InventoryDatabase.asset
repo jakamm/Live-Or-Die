@@ -1593,12 +1593,12 @@ MonoBehaviour:
       actionRestrictUse: 0
       actionRestrictCombine: 0
     combineSettings: []
-  - Title: Triple-Barrel Shotgun
+  - Title: Shotgun
     ID: 36
-    Description: This is a Triple-Barrel Shotgun that the clowns left lying around.
+    Description: Triple-Barrel Shotgun.
     itemType: 3
     useActionType: 0
-    itemSprite: {fileID: 21300000, guid: 6eff9e68d9a1fb544986866af1241f93, type: 3}
+    itemSprite: {fileID: 21300000, guid: 7482ef30a13a05d48a69fc07dd1b3c4d, type: 3}
     dropObject: {fileID: 919132149155446097, guid: bbb7e390ed9475a4d8b200c2d75aaadb,
       type: 3}
     packDropObject: {fileID: 0}
@@ -1623,7 +1623,50 @@ MonoBehaviour:
       soundVolume: 1
     itemSettings:
       maxItemCount: 0
-      useSwitcherID: 6
+      useSwitcherID: 5
+      healAmount: 0
+      inspectRotation: {x: 0, y: 0, z: 0}
+    useActionSettings:
+      triggerValue: 0
+      triggerAddItem: 0
+      addItemValue: 
+      actionRemove: 0
+      actionAddItem: 0
+      actionRestrictUse: 0
+      actionRestrictCombine: 0
+    combineSettings: []
+  - Title: Shotgun Rounds
+    ID: 37
+    Description: A shotgun shells.
+    itemType: 4
+    useActionType: 0
+    itemSprite: {fileID: 21300000, guid: d6f369155d47e7c49ab5f5a364c6d8a5, type: 3}
+    dropObject: {fileID: 5528063980788014642, guid: 267018493d7e0184db2144e31ef3ded8,
+      type: 3}
+    packDropObject: {fileID: 5528063980788014642, guid: 267018493d7e0184db2144e31ef3ded8,
+      type: 3}
+    itemToggles:
+      isStackable: 1
+      isUsable: 0
+      isCombinable: 0
+      isDroppable: 1
+      isRemovable: 0
+      canInspect: 0
+      canBindShortcut: 0
+      CombineGetItem: 0
+      CombineNoRemove: 0
+      CombineGetSwItem: 0
+      UseItemSwitcher: 0
+      ShowContainerDesc: 0
+      doActionUse: 0
+      doActionCombine: 0
+    itemSounds:
+      useSound: {fileID: 0}
+      combineSound: {fileID: 0}
+      soundVolume: 1
+    itemSettings:
+      maxItemCount: 0
+      useSwitcherID: -1
       healAmount: 0
       inspectRotation: {x: 0, y: 0, z: 0}
     useActionSettings:
