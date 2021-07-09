@@ -1678,3 +1678,87 @@ MonoBehaviour:
       actionRestrictUse: 0
       actionRestrictCombine: 0
     combineSettings: []
+  - Title: Assault Rifle
+    ID: 38
+    Description: Assault Rifle.
+    itemType: 3
+    useActionType: 0
+    itemSprite: {fileID: 21300000, guid: 84f4db2bf4fc75d4d9b51a48a41f851b, type: 3}
+    dropObject: {fileID: 186316, guid: 18ea9c7316b4aba44ab093010d1b034d, type: 3}
+    packDropObject: {fileID: 0}
+    itemToggles:
+      isStackable: 0
+      isUsable: 1
+      isCombinable: 0
+      isDroppable: 1
+      isRemovable: 0
+      canInspect: 0
+      canBindShortcut: 1
+      CombineGetItem: 0
+      CombineNoRemove: 0
+      CombineGetSwItem: 0
+      UseItemSwitcher: 1
+      ShowContainerDesc: 0
+      doActionUse: 0
+      doActionCombine: 0
+    itemSounds:
+      useSound: {fileID: 0}
+      combineSound: {fileID: 0}
+      soundVolume: 1
+    itemSettings:
+      maxItemCount: 0
+      useSwitcherID: 6
+      healAmount: 0
+      inspectRotation: {x: 0, y: 0, z: 0}
+    useActionSettings:
+      triggerValue: 0
+      triggerAddItem: 0
+      addItemValue: 
+      actionRemove: 0
+      actionAddItem: 0
+      actionRestrictUse: 0
+      actionRestrictCombine: 0
+    combineSettings: []
+  - Title: AR Rounds
+    ID: 39
+    Description: AR Rounds
+    itemType: 4
+    useActionType: 0
+    itemSprite: {fileID: 21300000, guid: d6f369155d47e7c49ab5f5a364c6d8a5, type: 3}
+    dropObject: {fileID: 5528063980788014642, guid: 277637ec04c8ae94f99a80f299e56fa8,
+      type: 3}
+    packDropObject: {fileID: 5528063980788014642, guid: 277637ec04c8ae94f99a80f299e56fa8,
+      type: 3}
+    itemToggles:
+      isStackable: 1
+      isUsable: 0
+      isCombinable: 0
+      isDroppable: 1
+      isRemovable: 0
+      canInspect: 0
+      canBindShortcut: 0
+      CombineGetItem: 0
+      CombineNoRemove: 0
+      CombineGetSwItem: 0
+      UseItemSwitcher: 0
+      ShowContainerDesc: 0
+      doActionUse: 0
+      doActionCombine: 0
+    itemSounds:
+      useSound: {fileID: 0}
+      combineSound: {fileID: 0}
+      soundVolume: 1
+    itemSettings:
+      maxItemCount: 0
+      useSwitcherID: -1
+      healAmount: 0
+      inspectRotation: {x: 0, y: 0, z: 0}
+    useActionSettings:
+      triggerValue: 0
+      triggerAddItem: 0
+      addItemValue: 
+      actionRemove: 0
+      actionAddItem: 0
+      actionRestrictUse: 0
+      actionRestrictCombine: 0
+    combineSettings: []
