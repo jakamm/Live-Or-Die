@@ -12103,6 +12103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShotgunRounds
       objectReference: {fileID: 0}
+    - target: {fileID: 5960780646556452801, guid: 267018493d7e0184db2144e31ef3ded8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d17608a3f7364a438db617d3a1164da, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 267018493d7e0184db2144e31ef3ded8, type: 3}
 --- !u!1 &372608547
