@@ -1599,9 +1599,10 @@ MonoBehaviour:
     itemType: 3
     useActionType: 0
     itemSprite: {fileID: 21300000, guid: 273d64f1b745ef14180455640c991223, type: 3}
-    dropObject: {fileID: 1652954791862484, guid: b02ea55a7090ed64ba3cafe8b77625f6,
+    dropObject: {fileID: 3260640200504691892, guid: 5c83713b8b53fa44c876b2aab13986e5,
       type: 3}
-    packDropObject: {fileID: 0}
+    packDropObject: {fileID: 3260640200504691892, guid: 5c83713b8b53fa44c876b2aab13986e5,
+      type: 3}
     itemToggles:
       isStackable: 0
       isUsable: 1
@@ -1641,7 +1642,7 @@ MonoBehaviour:
     itemType: 4
     useActionType: 0
     itemSprite: {fileID: 21300000, guid: 02b29b4bc39deda4ebe89dbb3579fae6, type: 3}
-    dropObject: {fileID: 5528063980788014642, guid: 267018493d7e0184db2144e31ef3ded8,
+    dropObject: {fileID: 2957839575586962912, guid: 59bb07301b45391459ec4550960cef27,
       type: 3}
     packDropObject: {fileID: 5528063980788014642, guid: 267018493d7e0184db2144e31ef3ded8,
       type: 3}
@@ -1684,8 +1685,10 @@ MonoBehaviour:
     itemType: 3
     useActionType: 0
     itemSprite: {fileID: 21300000, guid: 6cc45fccc0bdac2479d9dd928cdcd671, type: 3}
-    dropObject: {fileID: 186316, guid: 18ea9c7316b4aba44ab093010d1b034d, type: 3}
-    packDropObject: {fileID: 0}
+    dropObject: {fileID: 4188179668067198500, guid: e638af6a35e6eed40b311c278b7824c8,
+      type: 3}
+    packDropObject: {fileID: 4188179668067198500, guid: e638af6a35e6eed40b311c278b7824c8,
+      type: 3}
     itemToggles:
       isStackable: 0
       isUsable: 1
@@ -1725,7 +1728,7 @@ MonoBehaviour:
     itemType: 4
     useActionType: 0
     itemSprite: {fileID: 21300000, guid: 17856c04be4ccc047ab0c266bb3a348c, type: 3}
-    dropObject: {fileID: 5528063980788014642, guid: 277637ec04c8ae94f99a80f299e56fa8,
+    dropObject: {fileID: 1234081176340158700, guid: aab81d698b9a82a47a5e35b828afcdc4,
       type: 3}
     packDropObject: {fileID: 5528063980788014642, guid: 277637ec04c8ae94f99a80f299e56fa8,
       type: 3}
