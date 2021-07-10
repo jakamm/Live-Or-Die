@@ -1598,7 +1598,7 @@ MonoBehaviour:
     Description: Double-Barrel Shotgun.
     itemType: 3
     useActionType: 0
-    itemSprite: {fileID: 21300000, guid: 7482ef30a13a05d48a69fc07dd1b3c4d, type: 3}
+    itemSprite: {fileID: 21300000, guid: 273d64f1b745ef14180455640c991223, type: 3}
     dropObject: {fileID: 1652954791862484, guid: b02ea55a7090ed64ba3cafe8b77625f6,
       type: 3}
     packDropObject: {fileID: 0}
@@ -1683,7 +1683,7 @@ MonoBehaviour:
     Description: Assault Rifle.
     itemType: 3
     useActionType: 0
-    itemSprite: {fileID: 21300000, guid: 84f4db2bf4fc75d4d9b51a48a41f851b, type: 3}
+    itemSprite: {fileID: 21300000, guid: 6cc45fccc0bdac2479d9dd928cdcd671, type: 3}
     dropObject: {fileID: 186316, guid: 18ea9c7316b4aba44ab093010d1b034d, type: 3}
     packDropObject: {fileID: 0}
     itemToggles:

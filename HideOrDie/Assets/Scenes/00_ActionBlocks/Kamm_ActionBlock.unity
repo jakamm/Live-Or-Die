@@ -52396,6 +52396,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3198599329194156289, guid: 277637ec04c8ae94f99a80f299e56fa8,
+        type: 3}
+      propertyPath: examineName
+      value: AR Rounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198599329194156289, guid: 277637ec04c8ae94f99a80f299e56fa8,
+        type: 3}
+      propertyPath: itemMessage
+      value: AR Rounds
+      objectReference: {fileID: 0}
     - target: {fileID: 4234470264520230803, guid: 277637ec04c8ae94f99a80f299e56fa8,
         type: 3}
       propertyPath: m_RootOrder
