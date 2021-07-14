@@ -19172,8 +19172,8 @@ MonoBehaviour:
   m_NPCSounds:
     ScreamSound: {fileID: 8300000, guid: bd261acbd4c4aa24190503803473d183, type: 3}
     EatingSound: {fileID: 8300000, guid: 442f32712ac1bb24ebebdde638a5995b, type: 3}
-    AgonizeSound: {fileID: 8300000, guid: 8fd75b9827ffb1d46aa1fc4668bdb042, type: 3}
-    TakeDamageSound: {fileID: 8300000, guid: 1d7afd9aecc47c94785c6c327740dd93, type: 3}
+    AgonizeSound: {fileID: 8300000, guid: 433e2284c46484545b1d16e59f99c7f7, type: 3}
+    TakeDamageSound: {fileID: 8300000, guid: d99e7ba6bee58984d9722b939ed3a99a, type: 3}
     DieSound: {fileID: 8300000, guid: ff5fe489497396f44883f5c7ea3ad53b, type: 3}
     IdleSounds:
     - {fileID: 8300000, guid: 9f04046bf71b91f4fa4b39793840157b, type: 3}
