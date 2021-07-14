@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 8993902097722301239
-    second: Unreal Take
+    second: Run1-1
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -21,19 +21,53 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Unreal Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Clown_killer_LeftLeg' has translation animation
+      that will be discarded.\n\t'Clown_killer_LeftForeArm' has translation animation
+      that will be discarded.\n\t'Clown_killer_RightLeg' has translation animation
+      that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run1-1
+      takeName: Unreal Take
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -79,8 +113,860 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Clown_killer_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftEye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightEye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_Jaw1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clown_killer_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Clown_killer@Run1-1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Root
+      parentName: Clown_killer@Run1-1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000013315805, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Clown_killer_Hips
+      parentName: Clown_killer_Root
+      position: {x: -0.0027112674, y: 0.94503224, z: 0.000703152}
+      rotation: {x: -0.1161917, y: 0.028338559, z: 0.003121411, w: 0.9928175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftUpLeg
+      parentName: Clown_killer_Hips
+      position: {x: -0.10264547, y: -0.015482874, z: -0.0142993145}
+      rotation: {x: 0.011673608, y: -0.07826207, z: -0.023842596, w: 0.99657935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftLeg
+      parentName: Clown_killer_LeftUpLeg
+      position: {x: 0.000000027418135, y: -0.42174727, z: 0.00000009536744}
+      rotation: {x: 0.31374812, y: 0.10935028, z: -0.00003591884, w: 0.9431886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftFoot
+      parentName: Clown_killer_LeftLeg
+      position: {x: -0.000000106096266, y: -0.44236004, z: 0.00000026702884}
+      rotation: {x: 0.12725359, y: -0.094921686, z: -0.12563471, w: 0.97929174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftToeBase
+      parentName: Clown_killer_LeftFoot
+      position: {x: 0.0000003528595, y: -0.062623896, z: 0.1787813}
+      rotation: {x: 0.019473277, y: 0.0022589068, z: -0.0061421255, w: 0.99978894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Spine
+      parentName: Clown_killer_Hips
+      position: {x: 0.00000004686415, y: 0.078991994, z: 0.0000000858307}
+      rotation: {x: 0.085170455, y: -0.028287195, z: 0.008569176, w: 0.99592793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Spine1
+      parentName: Clown_killer_Spine
+      position: {x: 0.000000016093253, y: 0.12666626, z: 0.00000010490418}
+      rotation: {x: 0.11755551, y: -0.020243257, z: -0.008761568, w: 0.99282134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Spine2
+      parentName: Clown_killer_Spine1
+      position: {x: 0.000000014901161, y: 0.13322473, z: -0.00042909625}
+      rotation: {x: -0.025733477, y: -0.020809896, z: -0.008737855, w: 0.999414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftShoulder
+      parentName: Clown_killer_Spine2
+      position: {x: -0.046819124, y: 0.232967, z: 0.00000011444094}
+      rotation: {x: 0.031029055, y: -0.04144411, z: 0.145257, w: 0.9880385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftArm
+      parentName: Clown_killer_LeftShoulder
+      position: {x: -0.15874638, y: -0.00000026226047, z: -0.00000004291535}
+      rotation: {x: 0.04218171, y: 0.068087384, z: -0.12626833, w: 0.9887574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftForeArm
+      parentName: Clown_killer_LeftArm
+      position: {x: -0.24166767, y: 0.0000015211107, z: 0.00000062942513}
+      rotation: {x: 0.2556365, y: 0.008589005, z: -0.015026009, w: 0.96661806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHand
+      parentName: Clown_killer_LeftForeArm
+      position: {x: -0.24902539, y: 0.0000005149842, z: -0.0000019073489}
+      rotation: {x: -0.4829822, y: 0.16219878, z: -0.017465623, w: 0.8602992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandThumb1
+      parentName: Clown_killer_LeftHand
+      position: {x: -0.052569993, y: -0.00832564, z: 0.04101071}
+      rotation: {x: -0.13343956, y: 0.26221028, z: 0.12054244, w: 0.94810826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandThumb2
+      parentName: Clown_killer_LeftHandThumb1
+      position: {x: -0.04673726, y: -0.0053611854, z: 0.007074595}
+      rotation: {x: -0.008879436, y: 0.044293452, z: 0.050568577, w: 0.9976984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandThumb3
+      parentName: Clown_killer_LeftHandThumb2
+      position: {x: -0.03700875, y: -0.00000001192093, z: -0.000000035762792}
+      rotation: {x: 0.000000016763794, y: -0.035105336, z: 0.0000010986906, w: 0.9993836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandThumb4
+      parentName: Clown_killer_LeftHandThumb3
+      position: {x: -0.034881044, y: 0.00000017642977, z: -0.00000037908558}
+      rotation: {x: 0, y: -0, z: -0.00000001490116, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandIndex1
+      parentName: Clown_killer_LeftHand
+      position: {x: -0.1313373, y: 0.016988957, z: 0.034047198}
+      rotation: {x: 0.063859746, y: -0.017054882, z: -0.02258672, w: 0.9975575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandIndex2
+      parentName: Clown_killer_LeftHandIndex1
+      position: {x: -0.043412555, y: 0.00000023126606, z: -0.0000029659273}
+      rotation: {x: 0.0000095367395, y: -0.0000050440412, z: 0.03410634, w: 0.9994182}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandIndex3
+      parentName: Clown_killer_LeftHandIndex2
+      position: {x: -0.035762213, y: 0.000000040531162, z: -0.0000018906596}
+      rotation: {x: 0.0000017140702, y: -0.0000022318093, z: 0.04005099, w: 0.99919766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandIndex4
+      parentName: Clown_killer_LeftHandIndex3
+      position: {x: -0.03432399, y: 0.00000010252, z: -0.0000014185906}
+      rotation: {x: -8.8817837e-16, y: 5.2939553e-23, z: -0.00000005960464, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandMiddle1
+      parentName: Clown_killer_LeftHand
+      position: {x: -0.12604061, y: 0.019194795, z: 0.010509387}
+      rotation: {x: -0.036302038, y: -0.009353468, z: -0.023839362, w: 0.9990127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandMiddle2
+      parentName: Clown_killer_LeftHandMiddle1
+      position: {x: -0.042420138, y: 0.00000009536744, z: -0.00000026702884}
+      rotation: {x: 0.0000006258487, y: -0.0000010393559, z: 0.0331609, w: 0.9994501}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandMiddle3
+      parentName: Clown_killer_LeftHandMiddle2
+      position: {x: -0.04075416, y: 0.000000109672555, z: -0.00000012636187}
+      rotation: {x: 0.00000025864367, y: -0.0000018813746, z: 0.032436255, w: 0.9994738}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandMiddle4
+      parentName: Clown_killer_LeftHandMiddle3
+      position: {x: -0.03386219, y: -0.00000015735628, z: 0.00000005602837}
+      rotation: {x: 0.00000011920928, y: 0.000000059604645, z: 0.000000044703484,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandRing1
+      parentName: Clown_killer_LeftHand
+      position: {x: -0.11766647, y: 0.01631614, z: -0.01071025}
+      rotation: {x: -0.082983635, y: -0.01187755, z: -0.032633383, w: 0.99594563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandRing2
+      parentName: Clown_killer_LeftHandRing1
+      position: {x: -0.034924045, y: 0.00000007629395, z: -0.0000030088427}
+      rotation: {x: 0.000014469026, y: -0.000018883495, z: 0.03088417, w: 0.99952304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandRing3
+      parentName: Clown_killer_LeftHandRing2
+      position: {x: -0.034599457, y: 0.000000030994418, z: -0.0000014853479}
+      rotation: {x: 0.0000055185055, y: -0.0000007937394, z: 0.035661202, w: 0.99936396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandRing4
+      parentName: Clown_killer_LeftHandRing3
+      position: {x: -0.028335197, y: -0.00000009417535, z: -0.0000011515618}
+      rotation: {x: 0, y: 0.00000005960464, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandPinky1
+      parentName: Clown_killer_LeftHand
+      position: {x: -0.11005216, y: 0.00371789, z: -0.033782627}
+      rotation: {x: -0.035093714, y: -0.01961875, z: -0.04629879, w: 0.9981182}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandPinky2
+      parentName: Clown_killer_LeftHandPinky1
+      position: {x: -0.02737862, y: 0.00000013232233, z: -0.00000017404558}
+      rotation: {x: 0.0000006668269, y: -0.0000018104909, z: 0.03428742, w: 0.999412}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandPinky3
+      parentName: Clown_killer_LeftHandPinky2
+      position: {x: -0.024780096, y: 0.00000009417535, z: -0.00000012636187}
+      rotation: {x: 0.00000049204056, y: -0.00000008020411, z: 0.032199346, w: 0.99948144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHandPinky4
+      parentName: Clown_killer_LeftHandPinky3
+      position: {x: -0.019977048, y: 0.000000012516976, z: 0.00000001192093}
+      rotation: {x: -0.00000002980232, y: 2.2204458e-16, z: -0.00000000745058, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftForeArmTwist
+      parentName: Clown_killer_LeftForeArm
+      position: {x: -0.14999835, y: 0.00000029563907, z: -0.00000123024}
+      rotation: {x: -0.48954043, y: 0.00000001738003, z: 0.000000090798615, w: 0.8719806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Neck
+      parentName: Clown_killer_Spine2
+      position: {x: 0.0000000333786, y: 0.28864184, z: 0.0000001525879}
+      rotation: {x: 0.07879438, y: 0.020344613, z: 0.014440492, w: 0.9965787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Head
+      parentName: Clown_killer_Neck
+      position: {x: 0.000000009536743, y: 0.123836584, z: 0.00000011444094}
+      rotation: {x: -0.098774195, y: 0.017731536, z: 0.013108379, w: 0.99486554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftEye
+      parentName: Clown_killer_Head
+      position: {x: -0.032194007, y: 0.06609978, z: 0.05244702}
+      rotation: {x: -0.08548983, y: -0.0048675616, z: 0.00032660036, w: 0.99632716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftEyeBrow
+      parentName: Clown_killer_Head
+      position: {x: -0.035085183, y: 0.069910556, z: 0.06913778}
+      rotation: {x: -0.1151873, y: -1.2356875e-11, z: 1.06562315e-10, w: 0.99334383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightEye
+      parentName: Clown_killer_Head
+      position: {x: 0.03219399, y: 0.066101305, z: 0.05244663}
+      rotation: {x: 0.98100275, y: 0.0020384095, z: -0.081189014, w: 0.17617553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightEyeBrow
+      parentName: Clown_killer_Head
+      position: {x: 0.03494335, y: 0.07183472, z: 0.06816169}
+      rotation: {x: 0.99332845, y: 0.00011606345, z: -0.00014649898, w: 0.11531968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_LeftHat1
+      parentName: Clown_killer_Head
+      position: {x: -0.113007315, y: 0.2023531, z: -0.049721796}
+      rotation: {x: 0.026035774, y: -0.1434818, z: -0.309791, w: 0.9395556}
+      scale: {x: 0.9390694, y: 0.93906957, z: 0.93906957}
+    - name: Clown_killer_LeftHat2
+      parentName: Clown_killer_LeftHat1
+      position: {x: -0.076412454, y: -0.000000068549795, z: 0.00000014471624}
+      rotation: {x: -0.000000018626448, y: -0.00000005960464, z: -0.000000014901159,
+        w: 1}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.9999999}
+    - name: Clown_killer_RightHat1
+      parentName: Clown_killer_Head
+      position: {x: 0.09249008, y: 0.19017267, z: -0.046858486}
+      rotation: {x: -0.24384172, y: 0.9586136, z: 0.09598023, w: -0.111305945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHat2
+      parentName: Clown_killer_RightHat1
+      position: {x: -0.0723888, y: 0.000000081062325, z: 0.000000014305117}
+      rotation: {x: 0, y: -0, z: -0.0000000074505797, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_CenterHat1
+      parentName: Clown_killer_Head
+      position: {x: 0.000000019073486, y: 0.16275944, z: -0.20635054}
+      rotation: {x: 0.5018358, y: -0.6102614, z: 0.3181632, w: 0.5239409}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_CenterHat2
+      parentName: Clown_killer_CenterHat1
+      position: {x: -0.079473644, y: 0.00000018119813, z: 0.0000000858307}
+      rotation: {x: 0.00000001490116, y: -1.6653344e-16, z: -0.00000001117587, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Jaw1
+      parentName: Clown_killer_Head
+      position: {x: -4.4703483e-10, y: 0.025792012, z: 0.009747251}
+      rotation: {x: -0.34787348, y: 0.3472248, z: 0.6150966, w: 0.61650234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Jaw2
+      parentName: Clown_killer_Jaw1
+      position: {x: -0.12750326, y: 0.00000005722047, z: -0.0000001716614}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightShoulder
+      parentName: Clown_killer_Spine2
+      position: {x: 0.046819113, y: 0.23296274, z: -0.00000055313114}
+      rotation: {x: 0.98369646, y: -0.15025297, z: -0.09640297, w: -0.021721225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightArm
+      parentName: Clown_killer_RightShoulder
+      position: {x: 0.15874614, y: 0.0000004768372, z: -0.000000038146975}
+      rotation: {x: 0.026580151, y: 0.054461855, z: -0.13605104, w: 0.98884654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightForeArm
+      parentName: Clown_killer_RightArm
+      position: {x: 0.24166422, y: -0.0000057601933, z: -0.0000021076205}
+      rotation: {x: 0.32717857, y: -0.0024935156, z: -0.015094489, w: 0.94483876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHand
+      parentName: Clown_killer_RightForeArm
+      position: {x: 0.24902685, y: 0.0000017142297, z: 0.00000093460096}
+      rotation: {x: -0.18236148, y: 0.14741817, z: 0.030953865, w: 0.97162443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandThumb1
+      parentName: Clown_killer_RightHand
+      position: {x: 0.052568212, y: 0.008323961, z: -0.041011207}
+      rotation: {x: -0.23033333, y: 0.3250972, z: -0.12812392, w: 0.9082085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandThumb2
+      parentName: Clown_killer_RightHandThumb1
+      position: {x: 0.046736892, y: 0.0053615, z: -0.0070748166}
+      rotation: {x: -0.008884353, y: 0.044319376, z: 0.05056495, w: 0.99769735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandThumb3
+      parentName: Clown_killer_RightHandThumb2
+      position: {x: 0.037012972, y: 0.00000058650977, z: 0.0000014090539}
+      rotation: {x: 0.0000016996635, y: -0.03513356, z: 0.0000061543387, w: 0.9993826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandThumb4
+      parentName: Clown_killer_RightHandThumb3
+      position: {x: 0.034879807, y: -0.0000000858307, z: -0.00000028371815}
+      rotation: {x: 0.0000036954877, y: 0.00000005960445, z: -0.000000052154043, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandIndex1
+      parentName: Clown_killer_RightHand
+      position: {x: 0.13133216, y: -0.016993253, z: -0.034049924}
+      rotation: {x: 0.06385722, y: -0.017041221, z: -0.02261898, w: 0.9975572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandIndex2
+      parentName: Clown_killer_RightHandIndex1
+      position: {x: 0.043418825, y: 0.0000029307605, z: 0.0000032091143}
+      rotation: {x: 0.000008605414, y: -0.000013899048, z: 0.03414058, w: 0.999417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandIndex3
+      parentName: Clown_killer_RightHandIndex2
+      position: {x: 0.035759956, y: 0.0000005275012, z: 0.0000013160707}
+      rotation: {x: 0.0000010532109, y: -0.0000018287385, z: 0.040058758, w: 0.9991973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandIndex4
+      parentName: Clown_killer_RightHandIndex3
+      position: {x: 0.03432357, y: -0.00000043392183, z: 0.0000011765958}
+      rotation: {x: -1.6236991e-15, y: 0.00000011920928, z: 0.00000014528631, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandMiddle1
+      parentName: Clown_killer_RightHand
+      position: {x: 0.12604085, y: -0.019194562, z: -0.010509978}
+      rotation: {x: -0.03630104, y: -0.009361861, z: -0.023823392, w: 0.99901307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandMiddle2
+      parentName: Clown_killer_RightHandMiddle1
+      position: {x: 0.042414587, y: -0.0000015360118, z: -0.00000048875813}
+      rotation: {x: 0.000000055879333, y: 0.0000120867, z: 0.033160623, w: 0.99945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandMiddle3
+      parentName: Clown_killer_RightHandMiddle2
+      position: {x: 0.04076205, y: -0.00000133276, z: 0.0000005793572}
+      rotation: {x: 0.0000014724844, y: -0.000008185867, z: 0.032390695, w: 0.9994753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandMiddle4
+      parentName: Clown_killer_RightHandMiddle3
+      position: {x: 0.033861943, y: 0.0000017428399, z: 0.000000020861627}
+      rotation: {x: 0.00000014901158, y: 0.00000017881393, z: 0.000000020489095, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandRing1
+      parentName: Clown_killer_RightHand
+      position: {x: 0.11766235, y: -0.016318683, z: 0.010707665}
+      rotation: {x: -0.082993485, y: -0.011873616, z: -0.032663196, w: 0.99594396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandRing2
+      parentName: Clown_killer_RightHandRing1
+      position: {x: 0.034930713, y: 0.0000024032595, z: 0.0000029087068}
+      rotation: {x: 0.000014223155, y: -0.000018541698, z: 0.030901842, w: 0.9995225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandRing3
+      parentName: Clown_killer_RightHandRing2
+      position: {x: 0.034592234, y: 0.0000013244153, z: 0.0000014030935}
+      rotation: {x: 0.0000052841647, y: 0.0000018578492, z: 0.035748545, w: 0.9993608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandRing4
+      parentName: Clown_killer_RightHandRing3
+      position: {x: 0.02834161, y: -0.000003334284, z: 0.0000012415649}
+      rotation: {x: 0.0000002682209, y: 0.00000011920926, z: -0.00000008195638, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandPinky1
+      parentName: Clown_killer_RightHand
+      position: {x: 0.110049054, y: -0.0037185315, z: 0.033780523}
+      rotation: {x: -0.035089314, y: -0.01962321, z: -0.046283945, w: 0.998119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandPinky2
+      parentName: Clown_killer_RightHandPinky1
+      position: {x: 0.02737815, y: -0.0000010603668, z: -0.00000011682512}
+      rotation: {x: -0.000000953674, y: -0.000002687796, z: 0.034264594, w: 0.9994128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandPinky3
+      parentName: Clown_killer_RightHandPinky2
+      position: {x: 0.024782248, y: 0.000000060796744, z: -0.00000022888187}
+      rotation: {x: 0.0000012537039, y: 0.0000151404865, z: 0.032174505, w: 0.9994823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightHandPinky4
+      parentName: Clown_killer_RightHandPinky3
+      position: {x: 0.019975824, y: 0.0000014030935, z: 0.00000043153764}
+      rotation: {x: 0.00000023841855, y: 0.00000011920932, z: 0.00000011920929, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightForeArmTwist
+      parentName: Clown_killer_RightForeArm
+      position: {x: 0.14999788, y: 0.0000020670893, z: 0.0000009918214}
+      rotation: {x: -0.19742069, y: -0.00000005772056, z: -0.000000015297726, w: 0.98031884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Button3
+      parentName: Clown_killer_Spine2
+      position: {x: -0.0041835825, y: -0.013595887, z: 0.14503402}
+      rotation: {x: -3.4924602e-10, y: 1.3010429e-18, z: -0.0000000037252907, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Button4
+      parentName: Clown_killer_Spine2
+      position: {x: -0.0060046515, y: 0.11638002, z: 0.14708623}
+      rotation: {x: -3.4924602e-10, y: 1.3010429e-18, z: -0.0000000037252907, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Button2
+      parentName: Clown_killer_Spine1
+      position: {x: 0.0032640975, y: -0.016130088, z: 0.1262129}
+      rotation: {x: 2.3283062e-10, y: 2.6020846e-18, z: 0.000000011175869, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightUpLeg
+      parentName: Clown_killer_Hips
+      position: {x: 0.10264514, y: -0.015482881, z: -0.0142993005}
+      rotation: {x: 0.99860203, y: 0.036464434, z: -0.038236555, w: -0.0015289302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightLeg
+      parentName: Clown_killer_RightUpLeg
+      position: {x: -0.00000057578086, y: 0.42174715, z: -0.000004768372}
+      rotation: {x: 0.33230743, y: 0.111115985, z: 0.03550112, w: 0.9359299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightFoot
+      parentName: Clown_killer_RightLeg
+      position: {x: 0.00000025749205, y: 0.4423563, z: 0.00000042915346}
+      rotation: {x: -0.3142932, y: -0.11395946, z: -0.10245719, w: 0.93687546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_RightToeBase
+      parentName: Clown_killer_RightFoot
+      position: {x: -0.000000834465, y: 0.0626226, z: -0.17877887}
+      rotation: {x: -0.05925115, y: -0.006735278, z: 0.013743251, w: 0.9981258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clown_killer_Button1
+      parentName: Clown_killer_Hips
+      position: {x: 0.00049958704, y: 0.036582246, z: 0.12478942}
+      rotation: {x: 0.00000005985203, y: -2.9264308e-16, z: -0.000000004889443, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -91,13 +977,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
