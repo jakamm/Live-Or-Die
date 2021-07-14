@@ -19140,7 +19140,7 @@ MonoBehaviour:
   damagePlayer: 1
   enableScream: 1
   enableAgony: 1
-  enableHunger: 1
+  enableHunger: 0
   soundReaction: 1
   runToPlayer: 1
   randomWaypoint: 1
@@ -19148,7 +19148,7 @@ MonoBehaviour:
   playerLostPatrol: 7
   hungerTime: 80
   patrolTime: {x: 2.68, y: 5.01}
-  screamNext: {x: 30, y: 60}
+  screamNext: {x: 18.95, y: 26.84}
   agonyNext: {x: 30, y: 60}
   headOffset: {x: 0, y: 1.85, z: 0.15}
   reactionAngleTurn: 40
