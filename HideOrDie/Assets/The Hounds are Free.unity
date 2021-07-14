@@ -4808,6 +4808,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -4833,6 +4838,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -22692,6 +22707,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.6124441
       objectReference: {fileID: 0}
+    - target: {fileID: 7970168477035460072, guid: fac9cdc370866bd48ab759ff1aa8eeb2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 8586712168777081898, guid: fac9cdc370866bd48ab759ff1aa8eeb2,
         type: 3}
       propertyPath: m_Name
@@ -24181,6 +24201,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035317959}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -24206,6 +24231,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -24851,6 +24886,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -24876,6 +24916,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -34555,6 +34605,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_2Pack
       objectReference: {fileID: 0}
+    - target: {fileID: 2071273119029981892, guid: 1336c0c68c9165849bb2dd9d8b167c12,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 4186086972242073459, guid: 1336c0c68c9165849bb2dd9d8b167c12,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 4200517456243371675, guid: 1336c0c68c9165849bb2dd9d8b167c12,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -45193,6 +45253,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!64 &1062127179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47734,6 +47796,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!54 &1126416888
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48079,6 +48143,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -48104,6 +48173,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -48992,6 +49071,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 290503954}
     m_Modifications:
+    - target: {fileID: 6574200875786466571, guid: 99d6b357b5ebbf64dbe2e679ec7d5bd9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6584415961053908195, guid: 99d6b357b5ebbf64dbe2e679ec7d5bd9,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -57820,6 +57904,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -57845,6 +57934,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -58602,6 +58701,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035317959}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -58627,6 +58731,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -61782,6 +61896,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -61807,6 +61926,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -67451,6 +67580,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -67476,6 +67610,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -67869,6 +68013,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -67894,6 +68043,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -72106,6 +72265,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557251565}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -72131,6 +72295,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -79575,6 +79749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_Medium
       objectReference: {fileID: 0}
+    - target: {fileID: 7732357203346332960, guid: a4f5fad85c037d948af79edd0623ed28,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5fad85c037d948af79edd0623ed28, type: 3}
 --- !u!1001 &1889722892
@@ -84487,6 +84666,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 0.0004520126
       objectReference: {fileID: 0}
+    - target: {fileID: 4408935588409924344, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 5063278126311616815, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -84612,6 +84796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HEROPLAYER (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8209537385791602461, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 8440501289069738337, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
