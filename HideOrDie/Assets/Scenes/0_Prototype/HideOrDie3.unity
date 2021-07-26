@@ -2963,7 +2963,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.106188, y: -0.06760796, z: -0.013906146}
+  m_ConnectedAnchor: {x: -0.10618801, y: -0.06760807, z: -0.013906122}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -4300,6 +4300,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!64 &107274384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4620,7 +4622,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000037401815, y: 0.5082041, z: 0.000004410743}
+  m_ConnectedAnchor: {x: 0.0000037103791, y: 0.5082041, z: 0.000004410743}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -4860,7 +4862,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.106199905, y: -0.06761041, z: -0.0070855506}
+  m_ConnectedAnchor: {x: 0.10619989, y: -0.06761053, z: -0.0070855245}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -5288,6 +5290,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -5313,6 +5320,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -10533,7 +10550,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10621828, y: -0.067607775, z: -0.0070696697}
+  m_ConnectedAnchor: {x: 0.10621826, y: -0.067607895, z: -0.007069649}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -11119,6 +11136,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -11144,6 +11166,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -12229,6 +12261,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -12254,6 +12291,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -12801,7 +12848,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000054743145, y: 0.3277465, z: 0.000021979211}
+  m_ConnectedAnchor: {x: 0.000005498529, y: 0.3277465, z: 0.000021979211}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -14902,6 +14949,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 893050699}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -14927,6 +14979,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -15244,7 +15306,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000013872934, y: 0.5084141, z: 0.0000035464702}
+  m_ConnectedAnchor: {x: -0.000013858033, y: 0.5084142, z: 0.0000034868656}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -19728,7 +19790,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0033544, y: 0.26933613, z: 0.005094398}
+  m_ConnectedAnchor: {x: 0.0033543971, y: 0.26933601, z: 0.00509442}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -20205,7 +20267,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000028759164, y: 0.50820065, z: 0.00000283122}
+  m_ConnectedAnchor: {x: -0.0000029057187, y: 0.5082006, z: 0.00000283122}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -22263,6 +22325,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!23 &516987377
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24720,6 +24784,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -24745,6 +24814,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -27719,7 +27798,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000037960717, y: 0.3277456, z: -0.000009983779}
+  m_ConnectedAnchor: {x: -0.0000038035223, y: 0.3277456, z: -0.000009983779}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -29641,6 +29720,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -29666,6 +29750,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -31244,6 +31338,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -31269,6 +31368,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -35431,6 +35540,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -35456,6 +35570,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -37825,7 +37949,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.21504183, y: 0.25673935, z: -0.08635369}
+  m_ConnectedAnchor: {x: -0.21504182, y: 0.25673935, z: -0.08635369}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -38086,7 +38210,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000001490111, y: 0.50841206, z: 0.0000064372907}
+  m_ConnectedAnchor: {x: 0.00000016391222, y: 0.5084121, z: 0.0000064074884}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -40924,7 +41048,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.21319538, y: 0.25074753, z: -0.06690529}
+  m_ConnectedAnchor: {x: 0.21319537, y: 0.2507474, z: -0.06690523}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -41128,6 +41252,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!54 &937109551
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41578,7 +41704,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.106188305, y: -0.06761073, z: -0.0139193665}
+  m_ConnectedAnchor: {x: -0.10618832, y: -0.067610845, z: -0.013919328}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -42267,7 +42393,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.21319751, y: 0.25075325, z: -0.06689128}
+  m_ConnectedAnchor: {x: 0.2131975, y: 0.25075313, z: -0.066891246}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -45070,7 +45196,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000032782443, y: 0.5084075, z: -0.0000021159613}
+  m_ConnectedAnchor: {x: -0.0000032037387, y: 0.5084075, z: -0.0000021755657}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -46261,7 +46387,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10622456, y: -0.06760856, z: -0.0070722513}
+  m_ConnectedAnchor: {x: 0.10622455, y: -0.06760868, z: -0.007072231}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -48007,7 +48133,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000008422882, y: 0.32775006, z: 0.000005811452}
+  m_ConnectedAnchor: {x: 0.000008426608, y: 0.3277501, z: 0.000005826353}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -50388,6 +50514,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -50413,6 +50544,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -54320,6 +54461,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -54345,6 +54491,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -54811,6 +54967,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -54836,6 +54997,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -56442,6 +56613,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 634390938}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -56467,6 +56643,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -57126,6 +57312,11 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4408935588409924344, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 4408935588460006314, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_NavMeshLayer
@@ -58076,6 +58267,11 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8209537385791602461, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 8440501289069738337, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -58942,6 +59138,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -58967,6 +59168,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -60210,6 +60421,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -60235,6 +60451,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -71942,6 +72168,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -71967,6 +72198,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -73356,7 +73597,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000041630124, y: 0.32775354, z: -0.00000008940695}
+  m_ConnectedAnchor: {x: 0.0000041779135, y: 0.32775354, z: -0.000000059604638}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -76133,6 +76374,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -76158,6 +76404,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -76314,7 +76570,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0037440956, y: 0.4431415, z: 0.016313411}
+  m_ConnectedAnchor: {x: -0.0037440932, y: 0.44314137, z: 0.01631347}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -76423,7 +76679,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0037365756, y: 0.44314173, z: 0.016314432}
+  m_ConnectedAnchor: {x: -0.0037365737, y: 0.4431416, z: 0.016314484}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -76510,6 +76766,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 893050699}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -76535,6 +76796,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -76895,6 +77166,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 214110070}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -76920,6 +77196,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -77715,6 +78001,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -77740,6 +78031,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -78578,7 +78879,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000009108337, y: 0.32774404, z: -0.0000065267095}
+  m_ConnectedAnchor: {x: -0.000009126963, y: 0.32774404, z: -0.000006496907}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -79250,7 +79551,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0037586717, y: 0.4431439, z: 0.016318835}
+  m_ConnectedAnchor: {x: -0.003758661, y: 0.44314378, z: 0.016318858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -80502,7 +80803,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10621254, y: -0.06760855, z: -0.013913418}
+  m_ConnectedAnchor: {x: -0.10621255, y: -0.06760866, z: -0.01391338}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -81654,6 +81955,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 214110070}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -81679,6 +81985,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -83318,6 +83634,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!64 &1747831984
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83749,7 +84067,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.21504454, y: 0.2567425, z: -0.08634622}
+  m_ConnectedAnchor: {x: -0.21504453, y: 0.2567425, z: -0.086346224}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -83858,7 +84176,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.003363988, y: 0.2693381, z: 0.005105391}
+  m_ConnectedAnchor: {x: 0.003363985, y: 0.26933798, z: 0.0051054135}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -84153,6 +84471,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999841888}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -84178,6 +84501,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -85265,6 +85598,8 @@ MonoBehaviour:
   examineVolume: 1
   isExamined: 0
   lastFloorPosition: {x: 0, y: 0, z: 0}
+  trigger: {fileID: 0}
+  triggers: []
 --- !u!64 &1783809813
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87063,7 +87398,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0033438788, y: 0.26933798, z: 0.005101178}
+  m_ConnectedAnchor: {x: 0.003343876, y: 0.26933786, z: 0.0051012}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -90557,7 +90892,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.21319881, y: 0.25074634, z: -0.06690809}
+  m_ConnectedAnchor: {x: 0.21319878, y: 0.25074622, z: -0.066908054}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -90612,6 +90947,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 634390938}
     m_Modifications:
+    - target: {fileID: 168960534980202667, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 1484840049536936772, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -90637,6 +90977,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_3Pack (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5630061642678685942, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
+    - target: {fileID: 6560985352734673078, guid: 2a92e66ff7f63504a827ef071ea652c3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 19651269c1a6e684bb50a56c2f547e4a, type: 2}
     - target: {fileID: 6580188799431422302, guid: 2a92e66ff7f63504a827ef071ea652c3,
         type: 3}
       propertyPath: m_LocalRotation.w
