@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: The Defensive
   m_EditorClassIdentifier: 
   Objectives:
+  - shortName: Light switch puzzle
+    eventID: Turn On Power
+    objectiveText: Flip 6 light switches.
+    completeCount: 6
+    objectiveID: 0
   - shortName: Investigate
     eventID: 0
     objectiveText: Figure out how to turn the power back on.
     completeCount: 0
-    objectiveID: 0
-  - shortName: Light switch puzzle
-    eventID: Turn On Power
-    objectiveText: Flip 6 switches to turn on the power
-    completeCount: 2
     objectiveID: 1
-  - shortName: New Objective
+  - shortName: Duct fall animation
     eventID: Duct Collapse
     objectiveText: Investigate this room.
     completeCount: 0
@@ -38,3 +38,18 @@ MonoBehaviour:
     objectiveText: 
     completeCount: 0
     objectiveID: 4
+  - shortName: Animated Table
+    eventID: TableThrow
+    objectiveText: Watch out!
+    completeCount: 0
+    objectiveID: 5
+  - shortName: Green Door
+    eventID: 
+    objectiveText: Find the green key to open this door.
+    completeCount: 1
+    objectiveID: 6
+  - shortName: New Objective
+    eventID: 
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 7
