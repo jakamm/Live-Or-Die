@@ -18,38 +18,55 @@ MonoBehaviour:
     objectiveText: Flip 6 light switches.
     completeCount: 6
     objectiveID: 0
-  - shortName: Investigate
-    eventID: 0
-    objectiveText: Figure out how to turn the power back on.
-    completeCount: 0
-    objectiveID: 1
   - shortName: Duct fall animation
     eventID: Duct Collapse
     objectiveText: Investigate this room.
     completeCount: 0
-    objectiveID: 2
+    objectiveID: 1
   - shortName: Investigate
     eventID: 
     objectiveText: Investigate the collapsed duct.
     completeCount: 0
-    objectiveID: 3
-  - shortName: New Objective
+    objectiveID: 2
+  - shortName: Move Bookshelf
     eventID: Move Bookshelf
-    objectiveText: 
+    objectiveText: Find a way to move the bookshelf in the hall.
+    completeCount: 0
+    objectiveID: 3
+  - shortName: Blue key / Animated Table
+    eventID: 
+    objectiveText: Find the Blue key
     completeCount: 0
     objectiveID: 4
-  - shortName: Animated Table
-    eventID: TableThrow
-    objectiveText: Watch out!
-    completeCount: 0
-    objectiveID: 5
   - shortName: Green Door
     eventID: 
     objectiveText: Find the green key to open this door.
     completeCount: 1
-    objectiveID: 6
-  - shortName: New Objective
+    objectiveID: 5
+  - shortName: Lockbox 1
     eventID: 
-    objectiveText: 
+    objectiveText: Find the combination to open the lockbox
+    completeCount: 0
+    objectiveID: 6
+  - shortName: Grab Tape
+    eventID: 
+    objectiveText: Open the lockbox
     completeCount: 0
     objectiveID: 7
+  - shortName: Move Bookshelf
+    eventID: 
+    objectiveText: 'Find a way to move the bookshelf in the room.
+
+'
+    completeCount: 0
+    objectiveID: 8
+  - shortName: Investigate key / combo room
+    eventID: 
+    objectiveText: Investigate this room
+    completeCount: 0
+    objectiveID: 9
+  - shortName: New Objective
+    eventID: Table
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 10

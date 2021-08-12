@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: New The End is Nigh Objectives
   m_EditorClassIdentifier: 
   Objectives:
-  - shortName: Turn on the power
-    eventID: Trigger fan
-    objectiveText: 
+  - shortName: New Objective
+    eventID: box
+    objectiveText: sda
     completeCount: 0
     objectiveID: 0
