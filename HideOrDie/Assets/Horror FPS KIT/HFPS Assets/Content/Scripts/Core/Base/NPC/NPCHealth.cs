@@ -43,6 +43,12 @@ public class NPCHealth : MonoBehaviour {
     private BodyPart[] bodyParts;
     private bool isDead = false;
 
+
+    public GameObject explosion;
+
+
+    public Transform DeathEffect;
+
     void Start()
     {
         hitReactions = GetComponents<INPCReaction>();
@@ -117,6 +123,7 @@ public class NPCHealth : MonoBehaviour {
                 if(corpseRemoveType == CorpseRemoveType.Destroy)
                 {
                     SaveGameHandler.Instance.RemoveSaveableObject(gameObject, false, false);
+                    Instantiate(explosion, DeathEffect.position, DeathEffect.rotation);
                 }
 
                 Invoke("CorpseRemove", corpseTime);
@@ -137,6 +144,7 @@ public class NPCHealth : MonoBehaviour {
         }
         else if (corpseRemoveType == CorpseRemoveType.Disable)
         {
+            Instantiate(explosion, DeathEffect.position, DeathEffect.rotation);
             gameObject.SetActive(false);
         }
     }
