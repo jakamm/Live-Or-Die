@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: The End is Nigh Objectives
   m_EditorClassIdentifier: 
   Objectives:
-  - shortName: Stairs Up
+  - shortName: New Objective
     eventID: Stairs
-    objectiveText: Stairs text
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 0
+  - shortName: New Objective
+    eventID: Move Walls
+    objectiveText: 
     completeCount: 0
     objectiveID: 1
