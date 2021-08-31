@@ -13,8 +13,43 @@ MonoBehaviour:
   m_Name: The End is Nigh Objectives
   m_EditorClassIdentifier: 
   Objectives:
-  - shortName: Stairs Up
-    eventID: Stairs
-    objectiveText: Stairs text
+  - shortName: Puzzle
+    eventID: 
+    objectiveText: Find a way through the security bars.
+    completeCount: 3
+    objectiveID: 0
+  - shortName: Brown Key
+    eventID: 
+    objectiveText: Find the Brown Engraved Key.
     completeCount: 0
     objectiveID: 1
+  - shortName: New Objective
+    eventID: 
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 2
+  - shortName: Yellow Key
+    eventID: 
+    objectiveText: Find  the Yellow Engraved Key.
+    completeCount: 0
+    objectiveID: 3
+  - shortName: Key card
+    eventID: 
+    objectiveText: Find the key card
+    completeCount: 0
+    objectiveID: 4
+  - shortName: New Objective
+    eventID: 
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 5
+  - shortName: New Objective
+    eventID: 
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 6
+  - shortName: New Objective
+    eventID: 
+    objectiveText: 
+    completeCount: 0
+    objectiveID: 7
