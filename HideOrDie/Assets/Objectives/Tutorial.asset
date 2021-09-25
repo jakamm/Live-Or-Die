@@ -55,6 +55,6 @@ MonoBehaviour:
     objectiveID: 7
   - shortName: 08
     eventID: 
-    objectiveText: The 'Game Master' said to leave no stone unturned...
+    objectiveText: The combination must be around here somewhere.
     completeCount: 0
     objectiveID: 8
