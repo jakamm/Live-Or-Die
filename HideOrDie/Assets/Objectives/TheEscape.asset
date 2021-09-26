@@ -10,26 +10,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9de9e24370cd9041b348027f19b6140, type: 3}
-  m_Name: TheGame'sMaster
+  m_Name: TheEscape
   m_EditorClassIdentifier: 
   Objectives:
   - shortName: 00
     eventID: 
-    objectiveText: 'This must be where he filmed the tapes. '
+    objectiveText: Multiple TVs, I bet there is a tape around here.
     completeCount: 0
     objectiveID: 0
   - shortName: 01
-    eventID: 01
-    objectiveText: There must be a final tape around here.
+    eventID: 
+    objectiveText: I think I can get into that vent somehow.
     completeCount: 0
     objectiveID: 1
   - shortName: 02
     eventID: 
-    objectiveText: Play the tape.
+    objectiveText: Find the keycode to unlock the door.
     completeCount: 0
     objectiveID: 2
   - shortName: 03
     eventID: 
-    objectiveText: Defeat the Game Master to unlock the door.
+    objectiveText: This box could help me get in the vent.
     completeCount: 0
     objectiveID: 3
+  - shortName: 04
+    eventID: 
+    objectiveText: Play the tape.
+    completeCount: 0
+    objectiveID: 4
+  - shortName: 05
+    eventID: 
+    objectiveText: Escape through the vents.
+    completeCount: 0
+    objectiveID: 5
