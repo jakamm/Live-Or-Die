@@ -4580,6 +4580,11 @@ PrefabInstance:
       propertyPath: m_RootBone
       value: 
       objectReference: {fileID: 6061501250118085982}
+    - target: {fileID: -1938295011787107962, guid: 517241e7d81c6b84f874efa464682055,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -1905695622959657620, guid: 517241e7d81c6b84f874efa464682055,
         type: 3}
       propertyPath: m_RootBone
