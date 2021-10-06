@@ -378,7 +378,12 @@ PrefabInstance:
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
       propertyPath: sceneInfos.Array.size
-      value: 13
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[4].SceneName
+      value: Intro Video
       objectReference: {fileID: 0}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -420,6 +425,27 @@ PrefabInstance:
       propertyPath: sceneInfos.Array.data[12].SceneName
       value: Opening (Tutorial)
       objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[13].SceneName
+      value: The Dead Bodies
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[14].SceneName
+      value: The Hounds are Free
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[15].SceneName
+      value: The Defensive
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[4].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 071ca1fbd5ad7d7459a7becb0dc4bb23,
+        type: 3}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
       propertyPath: sceneInfos.Array.data[5].Background
@@ -470,6 +496,29 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
+      propertyPath: sceneInfos.Array.data[13].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[14].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[15].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[4].SceneDescription
+      value: Thank you for playing! Please enjoy!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
       propertyPath: sceneInfos.Array.data[5].SceneDescription
       value: The first level for the prototype.
       objectReference: {fileID: 0}
@@ -508,6 +557,24 @@ PrefabInstance:
       propertyPath: sceneInfos.Array.data[12].SceneDescription
       value: You awaken in a poorly lit room that has a boarded up door and a sealed
         up vent. Did whoever board up the door leave through the vent?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[13].SceneDescription
+      value: The stench from these rooms are unbearable. How long have they been
+        doing this?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[14].SceneDescription
+      value: The screams from the other contestants are getting to me. Are they coming
+        for you next?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[15].SceneDescription
+      value: After escaping the clown, you are entering rooms where there could be
+        many more. Are you going to stand and fight?
       objectReference: {fileID: 0}
     - target: {fileID: 224489639641545036, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}

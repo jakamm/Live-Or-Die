@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/3_Finished/Opening (Tutorial).unity
     guid: 8b826de0e4a8447429b8551bab17fe49
   - enabled: 1
-    path: Assets/Scenes/2_Testing/The Dead Bodies.unity
+    path: Assets/Scenes/3_Finished/The Dead Bodies.unity
     guid: 4b0c04dda625f4b44aee8f4eab30504a
   - enabled: 1
     path: Assets/Scenes/2_Testing/The Hounds are Free.unity

@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf2cf27070609147b5d7cf994f1498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipLength: 580
+  clipLength: 513
   cutsceneTimer: 0
   NextScene: Opening (Tutorial)
 --- !u!4 &1373893485
@@ -631,7 +631,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723839684}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d4eee71ee71b39f499710e8c36936c5c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: bc9abe7677ebc9548b12260364542531, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1101037117}
