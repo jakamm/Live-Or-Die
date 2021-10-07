@@ -5182,7 +5182,7 @@ PrefabInstance:
     - target: {fileID: 6670800820509309462, guid: defaaca8a5a760f4185b79c58ed0cbd9,
         type: 3}
       propertyPath: JITB_Total
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: defaaca8a5a760f4185b79c58ed0cbd9, type: 3}
