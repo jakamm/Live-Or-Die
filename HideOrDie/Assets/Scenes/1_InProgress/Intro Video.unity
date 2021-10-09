@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf2cf27070609147b5d7cf994f1498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipLength: 513
+  clipLength: 490
   cutsceneTimer: 0
   NextScene: Opening (Tutorial)
 --- !u!4 &1373893485
