@@ -594,6 +594,15 @@ public class ExamineManager : Singleton<ExamineManager>
 
         isPaper = firstExamine.examineType == InteractiveItem.ExamineType.Paper;
 
+        if (isPaper)
+        {
+            CollectibleObject co = objectHeld.GetComponent<CollectibleObject>();
+            if (co && co.type == CollectibleObject.ObjectType.Letter)
+            {
+                co.OnItemInteracted();
+            }
+        }
+
         if (examineLight)
         {
             examineLight.enabled = true;
@@ -769,6 +778,8 @@ public class ExamineManager : Singleton<ExamineManager>
 
     public void ExamineObject(GameObject @object, Vector3 rotation)
     {
+        Debug.Log("Here");
+        if (@object.GetComponent<CollectibleObject>()) @object.GetComponent<CollectibleObject>().OnItemInteracted();
         InteractiveItem item = @object.GetComponent<InteractiveItem>();
         firstExamine = item;
         priorityObject = item;
