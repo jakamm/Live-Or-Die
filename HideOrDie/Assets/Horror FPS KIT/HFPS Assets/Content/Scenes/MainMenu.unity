@@ -5184,6 +5184,11 @@ PrefabInstance:
       propertyPath: JITB_Total
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 6670800820509309462, guid: defaaca8a5a760f4185b79c58ed0cbd9,
+        type: 3}
+      propertyPath: letter_List.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: defaaca8a5a760f4185b79c58ed0cbd9, type: 3}
 --- !u!1 &1632563251
