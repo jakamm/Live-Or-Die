@@ -5186,6 +5186,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6670800820509309462, guid: defaaca8a5a760f4185b79c58ed0cbd9,
         type: 3}
+      propertyPath: clip_Total
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670800820509309462, guid: defaaca8a5a760f4185b79c58ed0cbd9,
+        type: 3}
+      propertyPath: letter_Total
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670800820509309462, guid: defaaca8a5a760f4185b79c58ed0cbd9,
+        type: 3}
       propertyPath: letter_List.Array.size
       value: 0
       objectReference: {fileID: 0}
