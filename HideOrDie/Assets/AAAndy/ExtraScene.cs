@@ -14,8 +14,7 @@ public class ExtraScene : MonoBehaviour
     public UnityEvent OnExtraOnEnd;
     public UnityEvent OnExtraOffStart;
     public UnityEvent OnExtraOffEnd;
-    public UnityEvent OnStartShowText;
-    public UnityEvent OnEndShowText;
+
     [Space(10)]
     public GameObject staticClip;
     public GameObject buttonPrefab;
@@ -27,6 +26,7 @@ public class ExtraScene : MonoBehaviour
     public GameObject letterTextGO;
     public Text letterText;
     public AudioSource changeChannelSound;
+    public GameObject showTextBTN;
 
     CollectibleManager cm;
 
@@ -37,6 +37,7 @@ public class ExtraScene : MonoBehaviour
 
     VideoPlayer lvPlayer;
 
+    GameObject selectedButton;
     
     bool isTextOn;
     // Start is called before the first frame update
@@ -64,17 +65,6 @@ public class ExtraScene : MonoBehaviour
         OnExtraOnStart?.Invoke();
     }
 
-    public void ToggleText()
-    {
-        isTextOn = !isTextOn;
-        if (isTextOn)
-        {
-            OnStartShowText?.Invoke();
-        }
-        else
-            OnEndShowText?.Invoke();
-    }
-
     void playTheClip(int index)
     {
         VideoClip clip = objectList.ClipList[index];
@@ -92,6 +82,10 @@ public class ExtraScene : MonoBehaviour
         changeChannelSound.Play();     
         audioSource.Play();
         cvPlayer.Play();
+
+        //Close Letter and Button
+        letterTextGO.SetActive(false);
+        showTextBTN.SetActive(false);
     }
 
     void playTheLetter(int index)
@@ -108,6 +102,7 @@ public class ExtraScene : MonoBehaviour
 
         letterText.text = objectList.LetterContentList[index];
         letterTextGO.SetActive(false);
+        showTextBTN.SetActive(true);
     }
 
     void InitializeClipAndLetterList()
@@ -120,6 +115,7 @@ public class ExtraScene : MonoBehaviour
             GameObject temp = Instantiate(buttonPrefab, clipList);
             temp.name = i.ToString();
             temp.GetComponentInChildren<Text>().text = (i + 1).ToString();
+            temp.GetComponent<Button>().onClick.AddListener(() => SwappingButton(temp));
             temp.GetComponent<Button>().onClick.AddListener(() => playTheClip(int.Parse(temp.name)));
             
             bool ifInteracted = cm.GetIfDestroyed(CollectibleObject.ObjectType.Clip, i);
@@ -133,9 +129,29 @@ public class ExtraScene : MonoBehaviour
             GameObject temp = Instantiate(buttonPrefab, letterList);
             temp.name = i.ToString();
             temp.GetComponentInChildren<Text>().text = (i + 1).ToString();
+            temp.GetComponent<Button>().onClick.AddListener(() => SwappingButton(temp));
             temp.GetComponent<Button>().onClick.AddListener(() => playTheLetter(int.Parse(temp.name)));
             bool ifInteracted = cm.GetIfDestroyed(CollectibleObject.ObjectType.Letter, i);
             temp.GetComponent<Button>().interactable = ifInteracted;
+        }
+    }
+
+    void SwappingButton(GameObject newBtn)
+    {
+        if(selectedButton != null)
+        {
+            selectedButton.GetComponent<Image>().enabled = false;
+        }
+        selectedButton = newBtn;
+        selectedButton.GetComponent<Image>().enabled = true;
+    }
+
+    public void ClearSelectedButton()
+    {
+        if(selectedButton!=null)
+        {
+            selectedButton.GetComponent<Image>().enabled = false;
+            selectedButton = null;
         }
     }
 }

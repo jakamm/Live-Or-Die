@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/SceneLoader.unity
     guid: e92d1d4c15fc07a42b93b5e226dab4fd
   - enabled: 1
-    path: Assets/Scenes/1_InProgress/Intro Video.unity
+    path: Assets/Scenes/3_Finished/Intro Video.unity
     guid: 3e08f0e262b3e2542922949a59db37dd
   - enabled: 1
     path: Assets/Scenes/3_Finished/Opening (Tutorial).unity
