@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c793c61ac573f4341ae2050ba79e389a, type: 3}
+  m_Name: CollectibleList
+  m_EditorClassIdentifier: 
+  ClipList:
+  - {fileID: 32900000, guid: 57c47e17ed7cd674a8067431caa98933, type: 3}
+  - {fileID: 32900000, guid: 6da9a3e134579ff459dca9097c0bff2e, type: 3}
+  - {fileID: 32900000, guid: 5b8f71254417f97438d7729a2b70a8a6, type: 3}
+  - {fileID: 32900000, guid: 0e59055f3ae849b458f8a2c1cf84999f, type: 3}
+  - {fileID: 32900000, guid: 9f1dc2bd4533c474188ec49bf6208f71, type: 3}
+  - {fileID: 32900000, guid: be2ea7e0852cf1941bbccfbd6bf36e73, type: 3}
+  - {fileID: 32900000, guid: 017437e26a461ce46a119f48d1a976c9, type: 3}
+  - {fileID: 32900000, guid: 3c84e69042280cb4a86cb91bebc16dac, type: 3}
+  LetterList:
+  - {fileID: 32900000, guid: cc5078231a9192d4d88b7270289eed3d, type: 3}
+  - {fileID: 32900000, guid: 0daabccf52e9c824c99591ffe0f5e50d, type: 3}
+  - {fileID: 32900000, guid: 995a8be0d47d7ff4d9a2c478df3fa57c, type: 3}
+  - {fileID: 32900000, guid: c0f48adfa6ad3ab45b43a4a19e2690c2, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LetterContentList:
+  - "\r\nPleasant Greetings,\r\n\r\n\r\nThis is your one and only game master with
+    a message for you. There is no point to try and hide, because we are always watching.\r\n\r\nPlay
+    by the rules and you will survive, but watch out! Around every corner there just
+    might be one of my hounds ready to pounce! \r\n\r\nContinue on to find more breadcrumbs
+    I have laid out for you. Though there are only two outcomes for you tonight.\r\n\r\n\r\nLive
+    or DIE!\r\n\r\nSincerely,\r\n-The Game Master\r\n"
+  - 'It''s My Birthday!!
+
+
+
+    "Happy Birthday"
+
+
+    -Guest of Honor'
+  - 3-6-1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

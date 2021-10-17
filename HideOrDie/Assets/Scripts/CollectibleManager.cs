@@ -21,6 +21,7 @@ public class CollectibleManager : MonoBehaviour
 
             InitialSetup();
             ReadFromSave();
+            calculateInteracted();
         }
     }
 
@@ -30,7 +31,48 @@ public class CollectibleManager : MonoBehaviour
     // Used to save all the boxed if destroyed.
     // True if destroyed, false otherwise. 
     public int JITB_Total = 0;
+    public int clip_Total = 0;
+    public int letter_Total = 0;
     public bool[] box_List;
+    public bool[] clip_List;
+    public bool[] letter_List;
+
+    public int JITB_Inteacted_Total = 0;
+    public int clip_Inteacted_Total = 0;
+    public int letter_Inteacted_Total = 0;
+
+    public void Interacted(CollectibleObject.ObjectType type, int iD)
+    {
+        Debug.Log("Called 1");
+        switch (type)
+        {
+            case CollectibleObject.ObjectType.JITB:
+                {
+                    if (box_List[iD]) Debug.LogError("Box should be destroyed");
+                    box_List[iD] = true;
+                    JITB_Inteacted_Total++;
+                }
+                break;
+            case CollectibleObject.ObjectType.Clip:
+                {
+                    Debug.Log("Called 2");
+                    if (clip_List[iD]) Debug.LogError("Box should be destroyed");
+                    clip_List[iD] = true;
+                    clip_Inteacted_Total++;
+                }
+                break;
+            case CollectibleObject.ObjectType.Letter:
+                {
+                    Debug.Log("Called 2");
+                    if (letter_List[iD]) Debug.LogError("Box should be destroyed");
+                    letter_List[iD] = true;
+                    letter_Inteacted_Total++;
+                }
+                break;
+            default:
+                break;
+        }
+    }
 
     public void ResetAll()
     {
@@ -46,29 +88,83 @@ public class CollectibleManager : MonoBehaviour
         box_List[index] = true;
     }
 
-    public bool GetIfDestroyed(int index)
+    public bool GetIfDestroyed(CollectibleObject.ObjectType type, int index)
     {
-        if (index < 0 || index > box_List.Length) Debug.LogError("Out of Bounds");
-        return box_List[index];
+        switch (type)
+        {
+            case CollectibleObject.ObjectType.JITB:
+                {
+                    if (index < 0 || index > box_List.Length) Debug.LogError("Out of Bounds");
+                    return box_List[index];
+                }         
+            case CollectibleObject.ObjectType.Clip:
+                {
+                    if (index < 0 || index > clip_List.Length) Debug.LogError("Out of Bounds");
+                    return clip_List[index];
+                }
+            case CollectibleObject.ObjectType.Letter:
+                {
+                    if (index < 0 || index > letter_List.Length) Debug.LogError("Out of Bounds");
+                    return letter_List[index];
+                }
+            default:
+                break;
+        }
+        return false;
     }
 
     public int GetTotal() => box_List.Length;
-    public int GetDestroyedTotal()
+    public int GetTotal(CollectibleObject.ObjectType type)
     {
-        int result = 0;
-        for (int i = 0; i < box_List.Length; i++)
+        switch (type)
         {
-            if (box_List[i]) result++;
+            case CollectibleObject.ObjectType.JITB:
+                return JITB_Total;
+            case CollectibleObject.ObjectType.Clip:
+                return clip_Total;
+            case CollectibleObject.ObjectType.Letter:
+                return letter_Total;
+            case CollectibleObject.ObjectType._MAX:
+                break;
+            default:
+                break;
         }
-        return result;
+        return -1;
     }
-    public int GetUndestroyedTotal() => box_List.Length - GetDestroyedTotal();
+    //public int GetDestroyedTotal()
+    //{
+    //    int result = 0;
+    //    for (int i = 0; i < box_List.Length; i++)
+    //    {
+    //        if (box_List[i]) result++;
+    //    }
+    //    return result;
+    //}
 
+    public int GetInteractedTotal(CollectibleObject.ObjectType type)
+    {
+        switch (type)
+        {
+            case CollectibleObject.ObjectType.JITB:
+                return JITB_Inteacted_Total;
+            case CollectibleObject.ObjectType.Clip:
+                return clip_Inteacted_Total;
+            case CollectibleObject.ObjectType.Letter:
+                return letter_Inteacted_Total;
+            case CollectibleObject.ObjectType._MAX:
+                break;
+            default:
+                break;
+        }
+        return -1;
+    }
 
     // Setup
     private void InitialSetup()
     {
         box_List = new bool[JITB_Total];
+        clip_List = new bool[clip_Total];
+        letter_List = new bool[letter_Total];
     }
 
     // Set up the data by reading the save
@@ -83,14 +179,29 @@ public class CollectibleManager : MonoBehaviour
 
             #region Jack In The Box
             string[] jitb_datas = datas[0].Split(' ', ',');
-
-            for (int i = 1; i < jitb_datas.Length; i++)
+            int dataStart = 1;
+            for (int i = dataStart; i < jitb_datas.Length; i++)
             {
-                box_List[i - 1] = jitb_datas[i] == "t";
+                box_List[i - dataStart] = jitb_datas[i] == "t";
             }
-
             #endregion
 
+
+            #region Clip
+            string[] clip_datas = datas[1].Split(' ', ',');
+            for (int i = dataStart; i < clip_datas.Length; i++)
+            {
+                clip_List[i - dataStart] = clip_datas[i] == "t";
+            }
+            #endregion
+
+            #region Letter
+            string[] letter_datas = datas[2].Split(' ', ',');
+            for (int i = dataStart; i < letter_datas.Length; i++)
+            {
+                letter_List[i - dataStart] = letter_datas[i] == "t";
+            }
+            #endregion
         }
     }
 
@@ -107,7 +218,27 @@ public class CollectibleManager : MonoBehaviour
             if (i != JITB_Total - 1) addon += ",";
             _output += addon;
         }
+        _output += "\n";
 
+        //clip
+        _output += "clip: ";
+        for (int i = 0; i < clip_Total; i++)
+        {
+            string addon = clip_List[i] ? "t" : "f";
+            if (i != clip_Total - 1) addon += ",";
+            _output += addon;
+        }
+        _output += "\n";
+
+        //letter
+        _output += "letter: ";
+        for (int i = 0; i < letter_Total; i++)
+        {
+            string addon = letter_List[i] ? "t" : "f";
+            if (i != letter_Total - 1) addon += ",";
+            _output += addon;
+        }
+        _output += "\n";
 
         File.WriteAllText(Application.dataPath + Const_DataPath, _output);
     }
@@ -125,28 +256,21 @@ public class CollectibleManager : MonoBehaviour
         SaveTheData();
     }
 
-    //public Dictionary<string, object> OnSave()
-    //{
-    //    Dictionary<string, object> boxList = new Dictionary<string, object>();
-    //    for (int i = 0; i < box_List.Length; i++)
-    //    {
-    //        boxList.Add(i.ToString(), box_List[i]);
-    //    }
+    void calculateInteracted()
+    {
+       for (int i = 0; i < box_List.Length; i++)
+       {
+           if (box_List[i]) JITB_Inteacted_Total++;
+       }
 
+        for (int i = 0; i < clip_List.Length; i++)
+        {
+            if (clip_List[i]) clip_Inteacted_Total++;
+        }
 
-    //    return new Dictionary<string, object>
-    //    {
-    //        {"DestroyedBoxes", boxList }
-    //    };
-
-    //}
-
-    //public void OnLoad(JToken token)
-    //{
-    //    Dictionary<string, object> temp = token["DestroyedBoxes"].ToObject<Dictionary<string, object>>();
-    //    foreach (var item in temp)
-    //    {
-    //        box_List[int.Parse(item.Key)] = (bool)item.Value;
-    //    }
-    //}
+        for (int i = 0; i < letter_List.Length; i++)
+        {
+            if (letter_List[i]) letter_Inteacted_Total++;
+        }
+    }
 }
