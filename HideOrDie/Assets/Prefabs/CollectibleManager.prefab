@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JITB_Total: 10
-  clip_Total: 10
+  clip_Total: 8
   letter_Total: 10
   box_List: 00000000000000000000
   clip_List: 00000000000000000000
