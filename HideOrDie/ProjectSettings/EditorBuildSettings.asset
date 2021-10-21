@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/3_Finished/The Hounds are Free.unity
     guid: 1ea4bb6d2c827b74892751b5fe4abbc5
   - enabled: 1
-    path: Assets/Scenes/2_Testing/The Defensive.unity
+    path: Assets/Scenes/3_Finished/The Defensive.unity
     guid: 18b7dfe87bcf81e4fb108d5dd22cdd40
   - enabled: 1
     path: Assets/Scenes/2_Testing/The Rodeo Round-Up.unity
