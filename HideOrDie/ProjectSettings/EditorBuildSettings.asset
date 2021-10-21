@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/3_Finished/The Rodeo Round-Up.unity
     guid: 9e100b30a3d3a9d4b80561b45762e811
   - enabled: 1
-    path: Assets/Scenes/2_Testing/The Escape.unity
+    path: Assets/Scenes/3_Finished/The Escape.unity
     guid: af8706c76f21c1149bf6e1ac4a3f2a3d
   - enabled: 1
     path: Assets/Scenes/3_Finished/Alternate Ending.unity
