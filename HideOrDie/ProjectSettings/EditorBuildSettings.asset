@@ -27,11 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/3_Finished/The Defensive.unity
     guid: 18b7dfe87bcf81e4fb108d5dd22cdd40
   - enabled: 1
-    path: Assets/Scenes/2_Testing/The Rodeo Round-Up.unity
+    path: Assets/Scenes/3_Finished/The Rodeo Round-Up.unity
     guid: 9e100b30a3d3a9d4b80561b45762e811
   - enabled: 1
     path: Assets/Scenes/2_Testing/The Escape.unity
     guid: af8706c76f21c1149bf6e1ac4a3f2a3d
+  - enabled: 1
+    path: Assets/Scenes/3_Finished/Alternate Ending.unity
+    guid: c0c058d1c2a7c2640b5fcc890c888017
   - enabled: 1
     path: Assets/Scenes/2_Testing/The Other Side.unity
     guid: fecdaffc10cafb54e884cbac08177b1c
