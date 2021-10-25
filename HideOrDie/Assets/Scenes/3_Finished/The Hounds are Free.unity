@@ -20820,7 +20820,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 473502179}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 473502180}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73fcb51f6d678d2498af4fb5f59a2c8a, type: 3}
@@ -24055,6 +24055,11 @@ PrefabInstance:
       value: "I will keep this one simple for you.\r\nThe combination to this locked
         box is at the end of a video tape.\r"
       objectReference: {fileID: 0}
+    - target: {fileID: 1024846367479426654, guid: 1139d8eedc98ecf4391e359b50ccdca3,
+        type: 3}
+      propertyPath: examineRotate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1024846367479426655, guid: 1139d8eedc98ecf4391e359b50ccdca3,
         type: 3}
       propertyPath: m_Name
@@ -24062,6 +24067,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1139d8eedc98ecf4391e359b50ccdca3, type: 3}
+--- !u!1 &473502180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1024846367479426655, guid: 1139d8eedc98ecf4391e359b50ccdca3,
+    type: 3}
+  m_PrefabInstance: {fileID: 473502179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &473502181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473502180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7f88277363e544483cde5ba67e2816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 2
+  HideIfDestroyed: 0
+  ID: 4
+  cm: {fileID: 0}
+--- !u!114 &473502182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473502180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46960261c335f94499ef61fcd9ae800c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 473502181}
+        m_TargetAssemblyTypeName: CollectibleObject, Assembly-CSharp
+        m_MethodName: OnItemInteracted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  eventExecuted: 0
 --- !u!1001 &473847134
 PrefabInstance:
   m_ObjectHideFlags: 0
