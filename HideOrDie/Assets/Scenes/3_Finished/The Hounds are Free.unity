@@ -59657,6 +59657,8 @@ GameObject:
   - component: {fileID: 1126416885}
   - component: {fileID: 1126416884}
   - component: {fileID: 1126416883}
+  - component: {fileID: 1126416892}
+  - component: {fileID: 1126416893}
   m_Layer: 9
   m_Name: VHSTape01Trigger
   m_TagString: Trigger
@@ -59957,6 +59959,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126416882}
   m_Mesh: {fileID: -5581168963983223874, guid: 53588d7cd76013b448606c6f5bfd1740, type: 3}
+--- !u!114 &1126416892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7f88277363e544483cde5ba67e2816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  HideIfDestroyed: 0
+  ID: 2
+  cm: {fileID: 0}
+--- !u!114 &1126416893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126416882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46960261c335f94499ef61fcd9ae800c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1126416892}
+        m_TargetAssemblyTypeName: CollectibleObject, Assembly-CSharp
+        m_MethodName: OnItemInteracted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  eventExecuted: 0
 --- !u!1001 &1127124289
 PrefabInstance:
   m_ObjectHideFlags: 0
