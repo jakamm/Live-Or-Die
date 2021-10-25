@@ -43,12 +43,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20e1f21c3ef0a804ab3f8ad8688c2a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JITB_Total: 10
+  JITB_Total: 30
   clip_Total: 8
-  letter_Total: 10
-  box_List: 00000000000000000000
-  clip_List: 00000000000000000000
-  letter_List: 00000000000000000000
+  letter_Total: 7
+  box_List: 000000000000000000000000000000000000000000000000000000000000
+  clip_List: 0000000000000000
+  letter_List: 00000000000000
   JITB_Inteacted_Total: 0
   clip_Inteacted_Total: 0
   letter_Inteacted_Total: 0
