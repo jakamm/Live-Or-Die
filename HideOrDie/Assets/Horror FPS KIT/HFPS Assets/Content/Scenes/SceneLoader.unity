@@ -378,7 +378,7 @@ PrefabInstance:
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
       propertyPath: sceneInfos.Array.size
-      value: 16
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -442,9 +442,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
+      propertyPath: sceneInfos.Array.data[16].SceneName
+      value: The Rodeo Round-Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[17].SceneName
+      value: The Escape
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[18].SceneName
+      value: Alternate Ending
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[19].SceneName
+      value: The Other Side
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[20].SceneName
+      value: The End is Nigh
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[21].SceneName
+      value: The Game's Master
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[22].SceneName
+      value: Credits
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
       propertyPath: sceneInfos.Array.data[4].Background
       value: 
-      objectReference: {fileID: 21300000, guid: 071ca1fbd5ad7d7459a7becb0dc4bb23,
+      objectReference: {fileID: 21300000, guid: c370f14822ac732479e2a3fbe0cd5fd7,
         type: 3}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -514,6 +549,48 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
+      propertyPath: sceneInfos.Array.data[16].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[17].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[18].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[19].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[20].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[21].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[22].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 40a6c6ce60a96a54691141e982489bd8,
+        type: 3}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
       propertyPath: sceneInfos.Array.data[4].SceneDescription
       value: Thank you for playing! Please enjoy!
       objectReference: {fileID: 0}
@@ -550,7 +627,8 @@ PrefabInstance:
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
       propertyPath: sceneInfos.Array.data[11].SceneDescription
-      value: YOU SURVIVED!
+      value: Congratulations! You defeated the Game Master, but this was just the
+        beginning!
       objectReference: {fileID: 0}
     - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
@@ -575,6 +653,49 @@ PrefabInstance:
       propertyPath: sceneInfos.Array.data[15].SceneDescription
       value: After escaping the clown, you are entering rooms where there could be
         many more. Are you going to stand and fight?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[16].SceneDescription
+      value: Things are getting out of hand. These clowns are not going to let you
+        live.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[17].SceneDescription
+      value: It is time for Richard to get out of here. One way or another.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[18].SceneDescription
+      value: Well this is one way out...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[19].SceneDescription
+      value: It looks like things are taking a turn for the better. Bring the fight
+        to them!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[20].SceneDescription
+      value: Looks like they had one last fail safe in place to ensure you couldn't
+        reach the Game Master.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[21].SceneDescription
+      value: The time has come to take down this monster once and for all!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506893542469358, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: sceneInfos.Array.data[22].SceneDescription
+      value: Thank you again for playing our game!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114643961109773812, guid: c7dcefcdd9d0faf4c83ff75870af9842,
+        type: 3}
+      propertyPath: Tips.Array.data[4]
+      value: Save often!! Just in-case you run into an issue!
       objectReference: {fileID: 0}
     - target: {fileID: 224489639641545036, guid: c7dcefcdd9d0faf4c83ff75870af9842,
         type: 3}
