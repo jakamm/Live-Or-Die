@@ -39,10 +39,10 @@ EditorBuildSettings:
     path: Assets/Scenes/3_Finished/The Other Side.unity
     guid: fecdaffc10cafb54e884cbac08177b1c
   - enabled: 1
-    path: Assets/Scenes/2_Testing/The End is Nigh.unity
+    path: Assets/Scenes/3_Finished/The End is Nigh.unity
     guid: 48d7c562431597e489aae49eccf7fdc8
   - enabled: 1
-    path: Assets/Scenes/2_Testing/The Game's Master.unity
+    path: Assets/Scenes/3_Finished/The Game's Master.unity
     guid: 0a1600fff7e170a4ea1896421c4744ca
   - enabled: 1
     path: Assets/Scenes/0_Prototype/WinScene.unity
