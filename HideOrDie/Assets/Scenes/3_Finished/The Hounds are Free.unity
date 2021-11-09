@@ -52189,7 +52189,7 @@ PrefabInstance:
     - target: {fileID: 2714451708168932322, guid: 8f27ac12c4beb314293a7f5280ba423b,
         type: 3}
       propertyPath: UnlockCode
-      value: 384
+      value: 834
       objectReference: {fileID: 0}
     - target: {fileID: 2714451708168932327, guid: 8f27ac12c4beb314293a7f5280ba423b,
         type: 3}
