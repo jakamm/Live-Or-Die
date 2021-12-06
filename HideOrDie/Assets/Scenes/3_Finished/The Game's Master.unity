@@ -5077,7 +5077,7 @@ PrefabInstance:
     - target: {fileID: 1019700614, guid: 6bda97c30dba86f43b14053c6ea65b56, type: 3}
       propertyPath: interactiveLight
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 289588983}
     - target: {fileID: 1813732461419620, guid: 6bda97c30dba86f43b14053c6ea65b56, type: 3}
       propertyPath: m_Name
       value: VictorianChandelier (1)
