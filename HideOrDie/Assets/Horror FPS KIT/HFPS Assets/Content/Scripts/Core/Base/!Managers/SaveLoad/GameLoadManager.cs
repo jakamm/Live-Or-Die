@@ -82,6 +82,9 @@ public class GameLoadManager : MonoBehaviour
                         obj.transform.SetParent(SavedGameContent);
                         obj.transform.localScale = new Vector3(1, 1, 1);
                         obj.transform.SetSiblingIndex(0);
+                        Vector3 pos = obj.transform.localPosition;
+                        pos.z = 0;
+                        obj.transform.localPosition = pos;
                         obj.GetComponentInChildren<SavedGame>().SetSavedGame(save.SaveName, save.Scene, save.SaveTime);
                         obj.GetComponentInChildren<Button>().onClick.AddListener(delegate { OnSelect(obj); });
                         SavesCache.Add(obj);
@@ -242,6 +245,7 @@ public class GameLoadManager : MonoBehaviour
             Prefs.Game_SaveName(string.Empty);
             Prefs.Game_LevelName(NewGameBuildName);
 
+            FindObjectOfType<DataTrackerManager>().OnNewGame();
             SceneManager.LoadScene(1);
         }
         else

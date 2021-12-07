@@ -133,6 +133,7 @@ public class HealthManager : MonoBehaviour {
             gameManager.ShowDeadPanel();
 
             isDead = true;
+            GameObject.FindObjectOfType<DataTracker>().deaded();
         }
 
 		if (Health >= maximumHealth) {

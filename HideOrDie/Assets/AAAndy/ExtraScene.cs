@@ -67,7 +67,7 @@ public class ExtraScene : MonoBehaviour
 
     void playTheClip(int index)
     {
-        VideoClip clip = objectList.ClipList[index];
+        VideoClip clip = objectList.GetClip(CollectibleObjectList.e_ClipType.Clip, index);
         clipVideoPlayer.SetActive(true);
         letterVideoPlayer.SetActive(false);
         staticClip.SetActive(false);
@@ -90,7 +90,7 @@ public class ExtraScene : MonoBehaviour
 
     void playTheLetter(int index)
     {
-        VideoClip clip = objectList.LetterList[index];
+        VideoClip clip = objectList.GetClip(CollectibleObjectList.e_ClipType.Letter, index);
 
         clipVideoPlayer.SetActive(false);
         letterVideoPlayer.SetActive(true);
@@ -100,7 +100,7 @@ public class ExtraScene : MonoBehaviour
         lvPlayer.clip = clip;
         lvPlayer.Play();
 
-        letterText.text = objectList.LetterContentList[index];
+        letterText.text = objectList.GetLetterContent(index);
         letterTextGO.SetActive(false);
         showTextBTN.SetActive(true);
     }
@@ -108,7 +108,7 @@ public class ExtraScene : MonoBehaviour
     void InitializeClipAndLetterList()
     {
         if (!cm) cm = FindObjectOfType<CollectibleManager>();
-        int totalClip = objectList.ClipList.Count;
+        int totalClip = objectList.Clip_Total;
 
         for (int i = 0; i < totalClip; i++)
         {
@@ -122,7 +122,7 @@ public class ExtraScene : MonoBehaviour
             temp.GetComponent<Button>().interactable = ifInteracted;
         }
 
-        int totalLetter = objectList.LetterList.Count;
+        int totalLetter = objectList.Letter_Total;
 
         for (int i = 0; i < totalLetter; i++)
         {

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c793c61ac573f4341ae2050ba79e389a, type: 3}
   m_Name: CollectibleList
   m_EditorClassIdentifier: 
+  JITB_Total: 15
   ClipList:
   - {fileID: 32900000, guid: 57c47e17ed7cd674a8067431caa98933, type: 3}
   - {fileID: 32900000, guid: 6da9a3e134579ff459dca9097c0bff2e, type: 3}
@@ -26,10 +27,12 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 0daabccf52e9c824c99591ffe0f5e50d, type: 3}
   - {fileID: 32900000, guid: 995a8be0d47d7ff4d9a2c478df3fa57c, type: 3}
   - {fileID: 32900000, guid: c0f48adfa6ad3ab45b43a4a19e2690c2, type: 3}
-  - {fileID: 32900000, guid: c076fd36c3de9be4fabd0aa5dc247f7c, type: 3}
-  - {fileID: 32900000, guid: f041a44e58de6b040ac70897b3bc1ab0, type: 3}
-  - {fileID: 32900000, guid: fe9fd67bdb25794488059eba04ec751e, type: 3}
-  - {fileID: 32900000, guid: 3e9c3c0ef304467488b7145c07a954eb, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   LetterContentList:
   - "\r\nPleasant Greetings,\r\n\r\n\r\nThis is your one and only game master with
     a message for you. There is no point to try and hide, because we are always watching.\r\n\r\nPlay
@@ -37,31 +40,19 @@ MonoBehaviour:
     might be one of my hounds ready to pounce! \r\n\r\nContinue on to find more breadcrumbs
     I have laid out for you. Though there are only two outcomes for you tonight.\r\n\r\n\r\nLive
     or DIE!\r\n\r\nSincerely,\r\n-The Game Master\r\n"
-  - "Another locked door, but where is the key?\r\nYour freedom is hanging in the
-    balance.\r"
-  - "These two ended up killing each other over the first digit.\r\n\r\nIt\u2019s
-    simple. \r\nPlants = #1.\r"
-  - "You\u2019ve found where we store the bodies.\r\nWe have electronically locked
-    this door.\r"
-  - "I will keep this one simple for you.\r\nThe combination to this locked box is
-    at the end of a video tape.\r"
-  - "Fredward G. Peabody,\r\n\r\nYou are out of options here Fredward. If you let
-    1 more contestant through your sector, then I will terminate you myself.\r\n\r\nI
-    am tired of hearing 3 different excuses from Minerva when I ask how this has
-    happened. It\u2019s either you or her who is the 1 slipping up, but her numbers
-    don\u2019t lie.\r\n\r\nIn the end, she gets results, you do not. It is an obvious
-    decision on my part that will probably secure me a promotion. Get your shit together
-    or sector 2 is getting a new Game Master. \r\n\r\nNo more chances,\r\nJimothy\r\n"
-  - "Manager#6018,\r\n\r\nWe are reaching out to you to inform you of our new serum.
-    We call it the Morien Serum, after Dr. Rebecca Morien herself. This is strictly
-    to be used when one of the contestants make it through the whole game. \r\n\r\nUnder
-    no circumstance should you ever let a contestant make it out of your sector.
-    If they should reach the core, then I wouldn\u2019t even want to think about
-    what they could do to our operation.\r\n\r\nRemember loose lips sink ships,\r\n\r\nDr.
-    Jimothy Marsters\r\nDirector of Snuff Productions"
-  - "Freddy,\r\n\r\nI can\u2019t keep covering for you with management. This is the
-    5th time I had to clean up one of your messes. The Director even chewed me out
-    for how my part of the operation is going. I have only had 2 contestants make
-    it to the halfway marker this past month!\r\n\r\nIf I have to, then I will send
-    Marsters your way. I don\u2019t want to do it Freddy, but I have 6 more months
-    until I get promoted. I know you will understand 1 day.\r\n\r\nI\u2019m sorry,\r\n\r\nMinerva"
+  - 'It''s My Birthday!!
+
+
+
+    "Happy Birthday"
+
+
+    -Guest of Honor'
+  - 3-6-1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

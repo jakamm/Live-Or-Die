@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5621692580301303344}
-  - component: {fileID: 6670800820509309462}
+  - component: {fileID: 7167646907671868570}
+  - component: {fileID: -1515919659428380831}
+  - component: {fileID: 1552083599148664220}
   m_Layer: 0
   m_Name: CollectibleManager
   m_TagString: Untagged
@@ -31,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6670800820509309462
+--- !u!114 &7167646907671868570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,12 +45,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20e1f21c3ef0a804ab3f8ad8688c2a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JITB_Total: 30
-  clip_Total: 8
-  letter_Total: 7
-  box_List: 000000000000000000000000000000000000000000000000000000000000
-  clip_List: 0000000000000000
-  letter_List: 00000000000000
+  box_List: 
+  clip_List: 
+  letter_List: 
   JITB_Inteacted_Total: 0
   clip_Inteacted_Total: 0
   letter_Inteacted_Total: 0
+  coList: {fileID: 11400000, guid: 23f691b10d1460d4899afd89429b374e, type: 2}
+  isOverride: 0
+  isDebug: 1
+--- !u!114 &-1515919659428380831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703159222848488118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f52596f6ce4eda4e9481af438821e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1552083599148664220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703159222848488118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbfcfb28c1f2b34785363ef5daa9ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

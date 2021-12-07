@@ -1234,6 +1234,7 @@ public class ZombieBehaviourAI : MonoBehaviour, INPCReaction, IOnAnimatorState, 
     {
         PlaySound(m_NPCSounds.DieSound, m_NPCSoundsVolume.DieVolume);
         isDead = true;
+        AchievementManager.On_Zombie_Kill();
     }
 
     /// <summary>

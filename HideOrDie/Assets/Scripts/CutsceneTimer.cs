@@ -17,10 +17,12 @@ public class CutsceneTimer : MonoBehaviour
     [Header("Next Scene")]
     public string NextScene;
 
+    public bool _DEBUG;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        if (_DEBUG) clipLength = 20;
     }
 
     // Update is called once per frame

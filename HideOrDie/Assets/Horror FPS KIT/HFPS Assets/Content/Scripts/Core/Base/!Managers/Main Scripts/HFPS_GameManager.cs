@@ -1043,6 +1043,7 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
         {
             if (saveHandler.crossSceneSaving)
             {
+                FindObjectOfType<DataTracker>().SaveData();
                 saveHandler.SaveNextSceneData(scene);
 
                 if (!isPaused)
@@ -1062,6 +1063,7 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
 
     public void Retry()
     {
+        FindObjectOfType<DataTracker>().SaveData();
         if (saveHandler.fadeControl)
         {
             saveHandler.fadeControl.FadeIn();

@@ -175,9 +175,9 @@ public class WeaponController : SwitcherBehaviour, ISaveableArmsItem, IOnAnimato
             fireControl = crossPlatformInput.GetInput<bool>("Fire");
             zoomControl = crossPlatformInput.GetInput<bool>("Zoom");
 
-            if(crossPlatformInput.IsControlsSame("Reload", "Examine"))
+            if (crossPlatformInput.IsControlsSame("Reload", "Examine"))
             {
-                if(!scriptManager.IsExamineRaycast && !scriptManager.IsGrabRaycast)
+                if (!scriptManager.IsExamineRaycast && !scriptManager.IsGrabRaycast)
                 {
                     if (conflictTime <= 0)
                     {
@@ -259,7 +259,7 @@ public class WeaponController : SwitcherBehaviour, ISaveableArmsItem, IOnAnimato
                 fireOnce = false;
             }
 
-            if(fireTime > 0)
+            if (fireTime > 0)
             {
                 fireTime -= Time.deltaTime;
                 canFire = false;
@@ -270,19 +270,19 @@ public class WeaponController : SwitcherBehaviour, ISaveableArmsItem, IOnAnimato
                 canFire = true;
             }
 
-            if(reloadControl && !isReloading && carryingBullets > 0 && bulletsInMag < bulletsPerMag)
+            if (reloadControl && !isReloading && carryingBullets > 0 && bulletsInMag < bulletsPerMag)
             {
                 StartCoroutine(Reload());
 
-                if(reloadSound == ReloadSound.Script)
+                if (reloadSound == ReloadSound.Script)
                 {
-                    if(soundReload) PlaySound(soundReload, volumeReload);
+                    if (soundReload) PlaySound(soundReload, volumeReload);
                 }
 
                 isReloading = true;
             }
 
-            if(zoomControl && !isReloading && playerFunctions.zoomEnabled)
+            if (zoomControl && !isReloading && playerFunctions.zoomEnabled)
             {
                 if (!isAiming)
                 {
@@ -377,9 +377,17 @@ public class WeaponController : SwitcherBehaviour, ISaveableArmsItem, IOnAnimato
 
         muzzleShown = true;
         bulletsInMag--;
-        if(soundFire) PlaySound(soundFire, volumeFire, true);
+        if (soundFire) PlaySound(soundFire, volumeFire, true);
         kickGO.localRotation = Quaternion.Euler(kickGO.localRotation.eulerAngles - new Vector3(kickUp, Random.Range(-kickSideways, kickSideways), 0));
+
+        if (!called)
+        {
+            GameObject.FindObjectOfType<DataTracker>().shoted();
+            called = true;
+        }
     }
+
+    bool called = false;
 
     void ShowBulletMark(RaycastHit hit)
     {
@@ -399,12 +407,12 @@ public class WeaponController : SwitcherBehaviour, ISaveableArmsItem, IOnAnimato
             surface = surfaceDetails.GetSurfaceDetails(hitObject, surfaceID);
         }
 
-        if(surface == null || hitObject.CompareTag("Water") && (surface = surfaceDetails.GetSurfaceDetails("Water")) == null)
+        if (surface == null || hitObject.CompareTag("Water") && (surface = surfaceDetails.GetSurfaceDetails("Water")) == null)
         {
             surface = surfaceDetails.surfaceDetails[defaultSurfaceID];
         }
 
-        if(surface.SurfaceBulletmark && surface.allowImpactMark)
+        if (surface.SurfaceBulletmark && surface.allowImpactMark)
         {
             float rScale = Random.Range(0.5f, 1.0f);
 
