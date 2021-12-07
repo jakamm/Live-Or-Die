@@ -29735,179 +29735,183 @@ MonoBehaviour:
   fadeControl: {fileID: 1097980634}
   constantSaveables:
   - BlockType: 0
-    BlockKey: InteractiveLight_eea21fbb304a4550ab35e099fd8d5617
+    BlockKey: DataTracker_05f26bf4fe554a0c993aa1a45e14f825
+    Instance: {fileID: 1868589964}
+    FieldData: []
+  - BlockType: 0
+    BlockKey: InteractiveLight_359b9888e5374dce806d39b0282214b7
     Instance: {fileID: 23116621}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_7bd333847c0c4d809344ec9137d32200
+    BlockKey: InteractiveLight_26be760298524d47b6dff57fd6bec939
     Instance: {fileID: 160541457}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_5f7ecab624c94487baa31a0b75841d21
+    BlockKey: InteractiveLight_f1f8e2edfa2d44ccbda14bc68763a048
     Instance: {fileID: 289588983}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_259a1b446812400d9560d4c8a194004a
+    BlockKey: DynamicObject_1364a86f652442a3b90a5a9a6436de91
     Instance: {fileID: 297281460}
     FieldData: []
   - BlockType: 0
-    BlockKey: ZombieBehaviourAI_450c8885f2344b21a82440a50455eaf7
+    BlockKey: ZombieBehaviourAI_3c21909bbd1a4fb793aa938078397292
     Instance: {fileID: 359382162}
     FieldData: []
   - BlockType: 0
-    BlockKey: VCRPlayer_1b74637cedb040cf8c89dc90eb17e56c
+    BlockKey: VCRPlayer_cf417e8619c24be2b0cf33aba3760b97
     Instance: {fileID: 370386283}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_5e88423405c242f3a772904f2afd3b62
+    BlockKey: InteractiveItem_66b34440c4224107bfb1689026d79d91
     Instance: {fileID: 370386284}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_1dfa66b1eb8f4537b2e066a1d1880666
+    BlockKey: InteractiveLight_2f058c2ffaa04c62b9217087aed8beb7
     Instance: {fileID: 438011630}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObjectPlank_f0fec10545064f30976deb638869053a
+    BlockKey: DynamicObjectPlank_63cd57867f6e4fee9613ecdde62cc919
     Instance: {fileID: 457149597}
     FieldData: []
   - BlockType: 0
-    BlockKey: SaveObject_8f7962d6c1c3464989254189911acf5c
+    BlockKey: SaveObject_2253f81ff0f245dbb3dae387201cba94
     Instance: {fileID: 457149598}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_a13b5404014f446199800912f2115034
+    BlockKey: DynamicObject_21f68b1239fb40029fcde971817b353e
     Instance: {fileID: 498238556}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_28aef190b13e490bace3fb33a31c646d
+    BlockKey: DynamicObject_001efbd94d484897b535d2338ae0ab0e
     Instance: {fileID: 503934465}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_0fc321847b2d42689f0c0af6f01a75d4
+    BlockKey: InteractiveLight_381a704de6f94ea1a222638c7e526c79
     Instance: {fileID: 584065883}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObjectPlank_085e69a8b97b4d21a7c1cf68df8aa3e7
+    BlockKey: DynamicObjectPlank_83c5c0d867ef4306a1d1cbdedcd6e997
     Instance: {fileID: 687156597}
     FieldData: []
   - BlockType: 0
-    BlockKey: SaveObject_3e06033f962e4dc6921cde4c7ebfe61a
+    BlockKey: SaveObject_3200eef66abd4b76a4be3c40e679bf91
     Instance: {fileID: 687156598}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_bf38d5eea85745b5b9bda56175c1a425
+    BlockKey: InteractiveItem_2b0b0bb181bf4d3eb7b2dd31611cc388
     Instance: {fileID: 851584333}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_d3ec3fa58246442fb3b77fcdb46e9e65
+    BlockKey: InteractiveItem_a239768b27144f50a07199ffb585b47b
     Instance: {fileID: 987635324}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObjectPlank_3fc0b1c4c8484b1cb527f777f44725fc
+    BlockKey: DynamicObjectPlank_252e33e7f31e4e598c0a5809b7c023fb
     Instance: {fileID: 1245882108}
     FieldData: []
   - BlockType: 0
-    BlockKey: SaveObject_18f2e76002ef4c33b1d5aed56807810f
+    BlockKey: SaveObject_37092a75cfe04f0688cf9c34875cdd80
     Instance: {fileID: 1245882109}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_cf0d798d4e224bfb901aec2e7afad1c6
+    BlockKey: InteractiveLight_100ac60c9c1244509b3d67000f4eae3e
     Instance: {fileID: 1248064107}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_d99ddced1b22488e8e7cc2a53e70106e
+    BlockKey: InteractiveLight_01ca42e68dfa4ee7b9d484757a2fd428
     Instance: {fileID: 1334185429}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_c175232812b44f669e9f2740fd2c7e9c
+    BlockKey: InteractiveItem_8bc29f46ef7c476f9c1274a4720db051
     Instance: {fileID: 1339713900}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObject_ba41e8a871b04a7dafa34ea94ed0680f
+    BlockKey: DynamicObject_960f651db301470a976f73b3a72a15ec
     Instance: {fileID: 1616459742}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_cd2af985d0464dfcbad0e0694aba2b34
+    BlockKey: InteractiveLight_a081a4a5b31841d0ae16d0f9b00288cc
     Instance: {fileID: 1637814690}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObjectPlank_9f13f99244394ce0983deea7182f196b
+    BlockKey: DynamicObjectPlank_5c72f291c2544b0188044ad05d379aeb
     Instance: {fileID: 1667266250}
     FieldData: []
   - BlockType: 0
-    BlockKey: SaveObject_2dbcfe771cbb47e380b0d5e7e4f44bc5
+    BlockKey: SaveObject_53bc74df874549d4bb188ec0e787f6cc
     Instance: {fileID: 1667266251}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_4824fab087a94faf874486e04c43121a
+    BlockKey: InteractiveLight_6a4acf60ba1a4ee6b55667932ce453c9
     Instance: {fileID: 1721611123}
     FieldData: []
   - BlockType: 0
-    BlockKey: DynamicObjectPlank_02afe18b6fb140b1828efd1f603e8ac9
+    BlockKey: DynamicObjectPlank_b45e0fa4d56048a0949b6d3aa889c0ac
     Instance: {fileID: 1740730341}
     FieldData: []
   - BlockType: 0
-    BlockKey: SaveObject_1ff14943909744edb34964faab6f0741
+    BlockKey: SaveObject_d24ef27c2edc4015bfa07d353ee2379f
     Instance: {fileID: 1740730342}
     FieldData: []
   - BlockType: 0
-    BlockKey: Radio_b6e1216fd1b149e79a8185d51785e136
+    BlockKey: Radio_48336a272b574bbd827593a68b178524
     Instance: {fileID: 1931217520}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_a74fffcc40bc44818d5140004ee0d45e
+    BlockKey: InteractiveItem_3e55f8b5087c4de18fbec94bbce6d98c
     Instance: {fileID: 1931217521}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveLight_891c5947d9964e16a563f34638dba324
+    BlockKey: InteractiveLight_41b86b8005f44d5e81fbfb8e8982c82b
     Instance: {fileID: 2111790030}
     FieldData: []
   - BlockType: 0
-    BlockKey: InteractiveItem_c05da7106eb543fbb2d3579edb996b14
+    BlockKey: InteractiveItem_96ca52b783a244bd914f338b05a4c303
     Instance: {fileID: 2135152404}
     FieldData: []
   - BlockType: 1
-    BlockKey: TriggerObjective_e134c4fe51ac4db1bc32c552458c92ff
+    BlockKey: TriggerObjective_ef4a8cbd6ed14464bdbe89d9cbdb745b
     Instance: {fileID: 155982009}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_957d73c3770d4bc4b89a38199aa3ddb9
+    BlockKey: TriggerObjective_6efbc2a6468045d080924f0e2fa73430
     Instance: {fileID: 359382161}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_d898c3a8c2534a7187e2d5751337bb9f
+    BlockKey: TriggerObjective_3b51a3794c3145099ad8bb7f21352bb1
     Instance: {fileID: 569237711}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_7fe408e98d39487eaabe1be6c9cde802
+    BlockKey: TriggerObjective_730a81ec848340b2bf915e5298074799
     Instance: {fileID: 844437387}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_002de1c87daa4306829a33ebdbb0bef6
+    BlockKey: TriggerObjective_6c109a5209a247238d750f7788a30847
     Instance: {fileID: 892704169}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerObjective_1a83ec6dc19d41e6adc021d9c287662b
+    BlockKey: TriggerObjective_7a4b8e0679e44957aedff04e5641b113
     Instance: {fileID: 1339713902}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: ItemEvent_511895f155ca464381e065b20766c2f2
+    BlockKey: ItemEvent_318c82e952f64691a22216c1848e7ed4
     Instance: {fileID: 1339713904}
     FieldData:
     - eventExecuted
   - BlockType: 1
-    BlockKey: TriggerObjective_26fdd34403a74d7482836b6f4662a894
+    BlockKey: TriggerObjective_81590f423d314126b306b403fe0c7a01
     Instance: {fileID: 1475614976}
     FieldData:
     - isTriggered
   - BlockType: 1
-    BlockKey: TriggerEvent_cba25d0cead94d60bda20fc0f2f13351
+    BlockKey: TriggerEvent_832345ee92d54dbd9f88b6ea5151567a
     Instance: {fileID: 2079092565}
     FieldData:
     - isPlayed
@@ -73563,6 +73567,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8099b123b6bd8a8459b8495c2bc3c576, type: 3}
+--- !u!114 &1868589964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5214456079038186843, guid: 8099b123b6bd8a8459b8495c2bc3c576,
+    type: 3}
+  m_PrefabInstance: {fileID: 1868589963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a949581f8dbaaf4ab329d880658a960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1873093692
 GameObject:
   m_ObjectHideFlags: 0
